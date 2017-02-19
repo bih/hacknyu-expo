@@ -1,19 +1,8 @@
 <!DOCTYPE html>
-
-<!--
-
-Run a find replace on:
-- DevpostURL -> Your Devpost URL: http://pennappsxii.devpost.com
-- HackathonName -> Your Hackathon Name -> PennApps XII
-
-You can also use your own favico or Hackathon logo/header.
-
--->
-
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>HackathonName Expo</title>
+  <title>HackNYU Expo</title>
 
   <!-- Meta tags to eliminate caching. I don't totally get how these work, so you might not need all of them. cribbed from: http://stackoverflow.com/questions/1341089/using-meta-tags-to-turn-off-caching-in-all-browsers-->
   <meta http-equiv="cache-control" content="max-age=0" />
@@ -36,8 +25,8 @@ You can also use your own favico or Hackathon logo/header.
   <div class="container">
     <div id="header">
       <h1>
-        <a href="DevpostURL" title="HackathonName Expo">
-          <img src="http://nealrs.github.io/devpost-follow-button/icon/devpost.svg" style="vertical-align:middle; width:60px;"> HackathonName
+        <a href="https://hacknyu2017.devpost.com/" title="HackNYU Expo">
+          <img src="http://hacknyu.org/images/logo-white-300.png" style="vertical-align:middle; width:60px;"> HackNYU
         </a>
       <h1>
     </div>
@@ -46,7 +35,7 @@ You can also use your own favico or Hackathon logo/header.
 
   <script id="template" type="x-tmpl-mustache">
     <div class="search_container">
-      <input class="search" type="search" placeholder="Filter by sponsor prize, project name, category or whatever" id="filter"/>
+      <input class="search" type="search" placeholder="Filter by sponsor prize, project name, category or whatever" id="filter" />
     </div>
     <table id="expoTable">
       <thead>
@@ -54,16 +43,14 @@ You can also use your own favico or Hackathon logo/header.
           <th class="number">Table</th>
           <th class="name">Project</th>
           <th class="prize">Sponsor Prizes</th>
-          <th class="cat">Category</th> <!--You can comment out this column if you don't need it-->
         </tr>
       </thead>
       <tbody class="list">
         {{#data}}
           <tr>
-            <td class="number">E{{expo}} T{{table}}</td>
+            <td class="number">T{{table}}</td>
             <td class="name"><a href="{{{link}}}" target="_blank">{{project}}</a></td>
             <td class="prize">{{sponsors}}</td>
-            <td class="cat">{{category}}</td> <!--You can comment out this column if you don't need it-->
           </tr>
         {{/data}}
       </tbody>
@@ -71,13 +58,8 @@ You can also use your own favico or Hackathon logo/header.
   </script>
   <br>
   <div id="footer">
-
-    <p>Sponsors, want analytics about who's using your API, what they're building, and where?</p>
-    <p>Organizers, want your own slick expo / table number app?</p>
-    <p>Email <a href="mailto:hackathons@devpost.com"> hackathons@devpost.com</a></p>
-
+    <br />
     <a href="http://devpost.com"><img src="http://devpost0.assetspost.com/assets/shared/devpost_logo-646bdf6ac6663230947a952f8d354cad.svg" style="height: 30px;"></a>
-
   </div>
 
   <script type="text/javascript">
@@ -108,7 +90,12 @@ You can also use your own favico or Hackathon logo/header.
           // add commas to sponsor prize data
           for (var x in tableData.data) {
             var s = tableData.data[x]['sponsors'];
-            tableData.data[x]['sponsors'] = s.replace(/,/ig, ", ");
+
+            try {
+              tableData.data[x]['sponsors'] = s.replace(/,/ig, ", ");
+            } catch(e) {
+              tableData.data[x]['sponsors'] = "";              
+            }
           }
           // print cleaned data
           console.log(tableData);

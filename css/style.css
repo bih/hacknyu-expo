@@ -1,4 +1,4 @@
-.container {max-width: 800px; margin: 0 auto; overflow: auto;}
+.container {max-width: 800px; margin: 0 auto; padding: 50px 0; overflow: auto;}
 
 h3 {padding-top: 18px;}
 h1 {
@@ -65,7 +65,7 @@ body {
   font-size: 16px;
 
   color: #062946;
-  background-color:#fff;
+  background-color:#57068c;
 
   margin: 0;
   padding: 0;
@@ -112,10 +112,14 @@ input {
 
 #header {
   width:800px;
-  background-color:#fff;
+  background-color:#57068c;
   color:#062946;
   z-index:999999;
   text-align:center;
+}
+
+#header h1 a {
+  color: #fff;
 }
 
 #footer{

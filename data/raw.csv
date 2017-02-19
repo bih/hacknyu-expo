@@ -1,0 +1,562 @@
+Submission Title,Submission Url,Plain Description,Video,Website,File Url,Desired Prizes,Mlh Points,Mlh Hardware Lab,This Question And All Below It Are For One Software Developer On Your Team: What College/University Are You Currently Enrolled In?,What Type Of Job Opportunity Are You Currently Seeking?,"How Well Do Most Job/Internship Descriptions Explain What's Important To You About The Job, And Allow You Evaluate The Opportunity?",What Are Thing You Want To Know About A Job That You Have A Hard Time Discovering Up Front?,How Hard/Easy Is It To Discover Most Jobs And Internships That Are Right For You?,Feel Free To Add Any Commentary On Your Above Answer.,Submitter Screen Name,Team Member 1 Screen Name,...
+Hackaton,http://hacknyu2017.devpost.com/submissions/67251-hackaton,"Inspiration
+
+We were inspired by our own experiences as children learning math and being told that despite the burgeoning growth of technology that we ourselves would not be able to rely on technology as a tool for mathematics. Thus, we created this web app that teaches children how to better perform basic math operations using technology to simultaneously demonstrate how technology is an integral and beneficial growing part of human society and teach children how to calculate by themselves.
+
+What it does
+
+This program generates a website that hosts a game that is intended to be solved through successful math operations. The player controls a circular unit on a plane by directing his cursor and is tasked with finding operations that satisfy the given number on the player. Successful operations increase the player's health and score while unsuccessful operations decrease the player's health and score. If the player's health rises to or above 50, the player wins and his score is displayed, but if the player's health falls to or below 0, the player loses. After the victory/defeat condition, the game restarts.
+
+How we built it
+
+The website is built in HTML5 and Javascript using the P5.js library to draw objects.
+
+Challenges we ran into
+
+We had little to no experience in any of the languages prior to creating this project, especially when dealing with the canvas aspects of Javascript.
+
+Accomplishments that we're proud of
+
+Despite our complete lack of experience in Javascript and practical coding, we managed to create a fully functional game that is reasonably aesthetically pleasing.
+
+What we learned
+
+We learned how to use and appreciate Javascript, such as its syntax, the canvas, and its unique properties. We also learned how to use HTML5 to make a basic webpage and host our Javascript on it.
+
+What's next for Hackaton
+
+We plan to expand our app to have more games that teach more math and technology concepts. We also hope to port this program to mobile devices such as Android and IOS. We hope this will lead to our publishing this app for public use on the respective App Stores.
+",,https://github.com/KevinCybura/Hackaton,https://s3.amazonaws.com/challengepost/zip_files/production/21468/zip_files/Hackathon.zip,"",Cuny Hunter College,"",Hunter College,Internship,Not very well,"The company culture, organization and how friendly they are towards newer employees. Additionally, how much leeway a new developer has to make decisions and learn.",Somewhat hard,Many internships seem to require experience or specialized skills that many students seeking to learn would not immediately have at their disposal prior to being trained or educated,KevinCybura,ariellim23
+EasyFloss,http://hacknyu2017.devpost.com/submissions/67276-easyfloss,"Inspiration
+
+We want a world where everyone has good oral hygiene. Yet, 32% of U.S. residence do not floss at all, 37% flosses occasionally, and only 30% of population flosses daily. In addition, within the 30% of the population who flosses, their techniques are subpar. EasyFloss will help overcome some of the major barriers for not flossing.
+
+What it does
+
+-Customized floss trays that floss all the teeth in the mouth in less than 20 seconds
+-Provides great ease and efficiency over traditional hand floss or water floss
+
+How we built it
+
+-We made loose nightguards for the mouth and threaded floss between all teeth after drilling holes where all spaces between the teeth are. We began with a set of teeth, took alginate impressions, created stone models of the mouth, placed a layer over the teeth so that the trays would be loose enough for movement on the teeth, and then used the plastic mold machine in the Maker Space at the Tandon School of Engineering to create the trays. We trimmed the trays, drilled holes into where the spaces between the teeth would be, threaded floss, and fixed the floss for tightness using dental filling. This is our prototype to be further developed in the future. 
+
+Challenges we ran into
+
+We initially made the trays using a thinner plastic at the dental school which was too flimsy and broke easily. The floss was too loose initially to go towards the gums past the point where neighboring teeth were in contact, which is necessary for optimal flossing. We addressed these issues so that our current prototype is effective. 
+
+Accomplishments that we're proud of
+
+We are proud of making a physical prototype of our idea and addressing challenges. We are proud of an idea which can be used by a wide audience for good oral health.
+
+What we learned
+
+We learned how to make a product out of an idea, to seek different ideas from people, and learn what resources are available.
+
+What's next for EasyFloss
+
+The next step is to make a prototype from durable material. In the future we hope to apply electronic vibrations for even greater effective flossing for all consumers including people who have disabilities. Electronic sensors would detect gums to prevent gum injury. We plan to disinfect the product using UV rays, brushing, or cleaning solution with a ultrasound machine for after use cleaning. We plan to create an illustrated step by step booklet for how to floss efficiently with EasyFloss.
+",https://youtu.be/A-nxH44-O-Q,,https://s3.amazonaws.com/challengepost/zip_files/production/21509/zip_files/EasyFloss.zip,"",New York University College of Dentistry,"","","","","","","",zhenzhao,zenajandali
+Healthy Virtual Reality,http://hacknyu2017.devpost.com/submissions/67328-healthy-virtual-reality,"Inspiration
+
+We wanted to play around with the oculus rift and leap! Our initial idea was to make a cooking simulation.
+
+What it does
+
+Lots of food is dropped from the sky. Touch the healthy ones and slap the unhealthy ones!
+
+How we built it
+
+We built it using Unity3D, with the OculusSDK and the LeapSDK
+
+Challenges we ran into
+
+We rented out a Alienware setup. However, we had a lot of issue setting up git on it. We spent a lot of time trying to figure out why we can't push to our repository through https... It seems like the previous user somehow set their git user to be the default and we were unable to remove them. After that issue was resolved, we had issues where when we pull code from git, the scene was not displaying properly.
+
+Accomplishments that we're proud of
+
+We built something funny and had a lot of fun with the Oculus Rift and Leap!
+
+What we learned
+
+We learned how to set up Oculus and Leap!
+
+What's next for Healthy Virtual Reality
+
+Turn it into a cooking simulator!
+",,https://github.com/Hans-Zhang28/VR_HACKNYU,,"",University of Waterloo,"Alienware Laptop,Oculus Rift,Leap Motion",University of Waterloo,Internship,OK,"I would like to know what type of work I will be doing, the compensation, and also the perks that the company has to offer.",Somewhat hard,"",vincentvuong,Hans-Zhang28
+NYUHackathon2017,http://hacknyu2017.devpost.com/submissions/67365-nyuhackathon2017,"Findit
+
+Findit website
+
+http://ec2-54-210-90-217.compute-1.amazonaws.com:5000/
+
+Inspiration
+
+Very so often we get spammed by ""visionaries"" to implement their idea. So we built an web app that takes upon that brilliant or naive idealism and find the right person to deal with them.
+
+What it does
+
+""Findit"" is a web-app platform that aims connects main campus students with ideas to school of engineering computer science students with skills. Sign up with your Net ID, school, major, and post your required skill needed for your idea. Not a recruiter? Don't need to post an idea -- just list off your skills!
+
+How I built it
+
+Technologies involved
+
+
+Linux
+Apache
+MySQL
+Python
+Flask
+HTML, CSS, & JS
+
+
+Techniques involved
+
+
+Writing routes
+Writing SQL
+Architecting the thing
+
+
+How to run
+
+
+Get git and copy the codebase from my demo
+Install LAMP on ubuntu (16.04 preferred), flask
+Import the SQL
+Run by ""python app.py""
+
+
+Started with the database, identified tables and relationships (primary, foreign key constraints). Worked on the server after to retrieve the data from the database and render it with its respective template engine (jinja). Deployed it to the cloud via EC2 Ubuntu. Not hard, just needed to install the LAMP stack and do perform continuous integration with the cloud.
+
+Challenges I ran into
+
+HTML and CSS'ing the thing to make it look pretty and presentable. Not my cup of tea (I'm more software architect/developer/engineer). Probably wasted the most time with CSS'ing. Also the NYU API was unanimously deemed garbage or way too arcane. My SQL returned ""duplicates"", which I could have probably easily solved with a multi-value field. 
+
+Accomplishments that I'm proud of
+
+Getting a minimum viable product ready. The backend capabilities turned out to be half the strength of my signature projects, but that's ok -- had fun. Taught and gave a freshman insight on backend infrastructure work.
+
+What I learned
+
+Not a lot for me (maybe for my team mates). Should've used docker to migrate my virtual box technology stack to AWS EC2 instance. Was told that would be overkill though. The scale is too small (2 days) and not enough incentive to tryhard.
+
+What's next for Findit
+
+Changelog
+
+v1.0.0:
+
+
+App launched onto AWS with basic match key-value pairs from MySQL.
+Simple login/register system.
+
+
+v2.0.0:
+
+
+Transform Findit to Shopit. Literally a shopping cart for ideas and we (CS majors) get to dump them to our shopping cart if the job sounds good and pays well.
+
+",,https://github.com/WarlonZeng/NYUHackathon2017,https://s3.amazonaws.com/challengepost/zip_files/production/21503/zip_files/NYUHackathon2017.zip,"#HackHarassment, Amazon Web Services - Best Use of AWS","NYU Tandon School of Engineering, NYU Liberal Studies","",NYU Tandon School of Engineering,"Full-time,Internship",OK,"That I need a job to experience a ""hard time discovering up front"".",Not that hard,"So my ""hard time discovering up front"" is that CS != instant tech jobbies",wz634,xc1008,gc1862
+CalPal,http://hacknyu2017.devpost.com/submissions/67405-calpal,"Goodbye, Procrastination!
+
+Julie is a college student. Julie wants to do well in her studies, and have fun at the same time. Julie knows that in this current day and age, just doing well in school is not enough; she also wants to work on side projects and pick up new skills in her free time. Julie loves to procrastinate.
+
+And this is why Julie, and the rest of the 95% of human population who always like to procrastinate, needs CalPal. CalPal is any student's most trusted buddy who can help you generate a calendar from your to-do list automatically. With CalPal, Julie now knows when is the best time to do the things she wants to do. And thanks to CalPal, Julie will never dare to procrastinate again.
+
+How we built it
+
+CalPal is a Telegram bot, built with the Telegram Bots API using a open source Java library. 
+CalPal also uses the NYU Events API to get event recommendations for our users.
+
+The logic behind CalPal's sophisticated automatic calendar generation was built in-house over this weekend.
+
+Challenges we ran into
+
+Natural language processing has always been a challenge. It was challenging to even attempt to allow natural language input, since it was just a short 30 over hours of hacking. Though limited, CalPal does attempt to offer natural language input.
+
+There is no best way to decide on an ""optimal"" arrangement of activities on a calendar - do we decide based on subjective priority, or using scientific principles? We did a lot of research regarding this problem, and we eventually decided to define ""optimal"" as the best time to do an activity in a day. This is why CalPal will always advise you to work out in the morning (you burn the most calories that way! ;)).
+
+To ensure a smooth user experience while being constrained by a chat interface, we also worked a lot on styling and customizing CalPal's responses. Initially, we wanted to use Google's Html2Image library to send users an image view of the generated calendar. However, it added too much lag time, which we felt worsened UX instead of improved it. After some quick thinking on the toes, we turned to using Markdown to style CalPal's responses instead.
+
+Accomplishments that we're proud of
+
+This is the first time we're making use of an API, and it was confusing at first as to how to make API calls. With some research and a little Postman help, we eventually figured out how to make use of the NYU events API. Through this hackathon, we understand how APIs work so much better!
+
+We also didn't expect the backend logic for CalPal to be so complicated. Given the time constraint, we are very proud that we managed to stay true to our core concept, even if it meant having to give in to certain trade-offs.
+
+The three of us are all Undergraduate students specializing in different fields. One of us is a Software Engineer, one a UX designer, and one aspiring Marketer. The common belief seems to be that the more developers in the team, the better. However, we feel that we have proven that wrong by fully making use of each of our complementary skillsets to come up with CalPal.
+
+What we learned
+
+The most important thing that we learnt is definitely the importance of ""letting go"". As perfectionists, it was very hard to accept that we will never make CalPal perfect within the limited time of the hackathon. 
+
+The other thing that we learnt: an all girls team at a technical hackathon can still rock it all the same too :-)
+
+What's next for CalPal
+
+There definitely needs to be more improvement in the natural language input processing for CalPal, it will be more convenient for users to interact with CalPal. We are also looking into enhancements for our in-house automatic calendar generation, such as taking into account priority of tasks.
+
+We also look forward to exploring voice input for our users to have an even more convenient experience with CalPal!
+",https://youtu.be/pEFjlutu7ws,https://web.telegram.org/#/im?p=@ScheduleBuddyBot,https://s3.amazonaws.com/challengepost/zip_files/production/21514/zip_files/CalPal_submission.pdf,"Educational Technology, Make School Prize","New York University, National University of Singapore","",National University of Singapore,Internship,OK,Learning and growth opportunities.,Somewhat hard,Usually easier with startups.,chenwei,xyw211,szenius
+Natural Balance,http://hacknyu2017.devpost.com/submissions/67467-natural-balance,"Inspiration
+
+We were discussing how many games are about resource management. When we saw that one of the tracks at hackNYU was about sustainability, we made the connection to natural resources.
+
+What it does
+
+It is a game that runs in a website. It is a classic clicker style game, but with the theme of managing the earth's resources.
+
+How we built it
+
+We used javascript, html, and css to build this website game collaboratively through Github.
+
+Challenges we ran into
+
+We spent lots of time discussing how we could make a project that would both be fun and educational for us and the user. Even once we had our idea, it was a bit of an obstacle to figure out how we wanted to organize and display the various aspects of the game.
+
+Accomplishments that we're proud of
+
+We are proud that we were able to make a full game, which we, ourselves enjoyed playing, from scratch, over 36 hours. Additionally, the two of us that had slight familiarity at best with javascript were proud of our ability to pick up the language quickly and be productive members of the team.
+
+What we learned
+
+We improved our comfortability with javascript and we learned about the process for creating, designing, and continually testing a website game.
+
+What's next for Natural Balance
+
+We hope to add more features and improvements to the game, and use the game development skills we learned to create more games.
+",,https://natural-balance.github.io/,,"",University of Maryland at College Park,"",University of Maryland,Internship,OK,"","","",jacob5555555555,robbyef,dsmolyak
+Edu-venture,http://hacknyu2017.devpost.com/submissions/67476-edu-venture,"Inspiration
+
+We live in a new era of role playing games. From Fitocracy allowing us to level up from working out, to Pokemon GO bringing Pokemon and the outdoors to new-found popularity, games are pervading every aspect of society. With Midterms right around the corner, it can be hard to find the motivation to study.  Thus was born the idea that if you could study the same way you played a video game, then maybe we wouldn't mind studying as much.
+
+What it does
+
+Track down your friend Connie, and prevent her from missing her exams!
+
+Edu-venture is a turn-based role playing game designed to use positive reinforcement learning and psychological rewards to encourage studying for a test or exam. In our current demo, it is targeted at New York middle school students who have to take their Regent exams. However, the current game model makes it easy to adapt to other subjects from the elementary to collegiate level. Not just a set of flash cards, the game takes players for a comedic and enjoyable story as they study for their tests in whatever subjects they may be.
+
+How we built it/Challenges we ran into
+
+We constructed Edu-venture using Unity (with C# as our scripting language). We started this project with 75% of the team almost completely new to both Unity and C#.  The learning curve of the game engine was certainly an obstacle to overcome, but through teamwork, persistence, and all-star delegation, we were able to build a creative product.
+
+We drew inspiration from many games like Pokemon, Mathblasters, Final-Fantasy, Zelda, and many others. We went through many drafts and ideas, from a Final Fantasy clone where the abilities would be keyed off of answering the questions associated with that ability, to a timer-based game, where attacks would become stronger based off of how many questions you could answer within the time limit. In the end, we decided on our current model because its simple user-experience makes it more accessible to younger students without additional complications such as tracking in-game attributes and experience points, or discriminating against students who would normally require extra time but perform just as well under actual test requirements.
+
+Accomplishments that we're proud of
+
+We started this project with 3/4 of the team almost completely new to Unity and C#, so we are very proud about how quickly we learned and adapted. We were not quite sure if we could aptly build a full game and include most of the planned features within the time limits, even if we all had mastery in Unity.  We consider this our most impressive feat.
+
+What we learned
+
+Three of us had never used Unity before, so this was a huge learning experience. This was also the first hackathon for two of our members, with a third member having not participated in a hackathon in four years.  We learned a new scripting language C#, which most had never touched.  In addition, most of us had never designed a game before, from the brainstorm/storyboard process to level and game-mechanic design, all the way down to sprite and animation work.  From start to finish, our team developed a fun, creative adventure RPG from scratch without having any experience in having done so before.
+
+What's next for Edu-venture
+
+There are many features that can be added to this program in the next iterations. Our team has a deep interest in assistive technology for people with disabilities, especially for students. One approach would be to set all in-game fonts to Dyslexie, a font that was created to be more easily read by people with Dyslexia. Another option would be to add a Beeline Reader to help people with Dysgraphia. Additionally, we can have better support for reader programs, to help people who are blind or have extreme cases of dyslexia.
+From a gameplay perspective, we could add more content. In the future we can take the time to develop art resources unique to this game instead of the current placeholders, and we can create new levels that can incorporate additional educational concepts like teaching and courses. 
+",,https://d2zn8gj9t16v1i.cloudfront.net/,,"Amazon Web Services - Best Use of AWS, Make School Prize",NYU,"",NYU,Internship,Very well,How many of their employees are secretly nazis.,Very hard,My skill set is very different from my desired career path.,Andrew-Bo-Lin,mcgreentn,dpa258,LenaRajan
+muse,http://hacknyu2017.devpost.com/submissions/67486-muse,"muse
+
+HackNYU 2017
+
+Muse is a project to discover one's muse. It scrapes information from the web to try and learn more about a subject.
+",,https://github.com/josephjdkim/muse,https://s3.amazonaws.com/challengepost/zip_files/production/21533/zip_files/muse.zip,"",New York University,"",New York University,Internship,OK,"",Very hard,"",josephjdkim,jyty17
+NYU Living,http://hacknyu2017.devpost.com/submissions/67523-nyu-living,"Inspiration
+
+NYU is a big school and it may be intimidating to meet new people and create new social circles. In addition, New York City is fairly expensive. Put the two together and most students have a hard time finding their place. This pressure made us to investigate options for finding appropriate housing options. Our platform relieves this pressure by promoting both cost-efficiency and social-gathering through home sharing between students. 
+
+What it does
+
+NYU Living serves as an index for NYU students to post their offered shared housing arrangements. Whoever wants to view offers can either elect for a comprehensive list or use NYU Living's search engine to browse their options with regards to price, location, and tenant requirements. Future implementations include a match making system based on similar hobbies and interests as well as other categories. This will lead to housing arrangements are more tailored towards the individuals using our services.
+
+How we built it
+
+The minimum viable product (MVP) was built using powerful and versatile tools including Node.js and MongoDB. This enabled the rapid development of said MVP. Node.js was used as a web-serving platform as it enables quick asynchronous serving of data. MongoDB is the perfect database system for a Node.js application by promoting easily designed schemas and rapid deployment. Both tools are widely used and a vast documentation is available.
+
+Challenges we ran into
+
+Especially for events that are condensed on time, it was hard to collaborate as a group in terms of which features we wanted to get done, and at times were very ambitious in our efforts when it came to discussing what we wanted our final product to look like. In addition, using group collaborator tools like Github caused a slight lag in early development for people who had not been familiar with forms of version control. 
+
+Accomplishments that we're proud of
+
+We are proud of the application that we have built for several reasons. First our team consisted of a variety of different background and we managed to work well together and apply each team member's strongest skills to project. While we were relatively new to the tools used, we are proud of the progress have made in acquiring the necessary skills to complete this project. Additionally we managed our limited time well through pair programming and work re-partition.
+
+What we learned
+
+It's OK to be ambitious and to have high hopes for what you want to achieve, but it's also important to be realistic and to just have fun during the event. Hack-a-thons encourage both social interaction and learning. It's better to stay in the spur of the moment rather than constantly planning. At the end of the hack it's really about working as a team and making the best of the time you're given.
+
+What's next for NYU Living
+
+NYU Living has a bright future. We are planning on improving the platform to create more complex search and matching algorithms. These will enhance the overall quality of the services leading to greater adoption by students who want to both be more social and live in the city for a fraction of the cost.
+",,https://github.com/Yixuan-Angela/hackathon-starter,https://s3.amazonaws.com/challengepost/zip_files/production/21543/zip_files/hackathon-nyuliving.zip,"",New York University Tandon School of Engineering,"",New York University Tandon School of Engineering,"Full-time,Internship",OK,"Actual workload, workflows, etc...",Somewhat hard,"",mdk369,xz1776,ac4649,Aangela_a
+HaikuBot,http://hacknyu2017.devpost.com/submissions/67536-haikubot,"Inspiration
+
+We think that framing the world around in the form of the three-lined haiku offers a glorious new perspective on our surroundings as well as provoking meaningful and stimulating lines of thought.
+
+What it does
+
+Running as a Facebook Messenger bot, the user can send a picture file (one which has either been saved on the user's phone or taken in the moment) to HaikuBot and receive in return three lines of wisdom and beauty.
+
+How I built it
+
+We used the Clarifai Computer Vision API to generate a list of keywords pertaining to the user's image, then fed those keywords into a randomly selected Haiku-generating algorithm which we programmed from scratch. The result is then fed back to the Facebook bot and outputted to the user via Facebook messenger. The whole thing was hosted on Heroku and built with Node.js.
+
+Challenges I ran into
+
+The haiku algorithms were tricky to program. First we had to account for having the right amount of syllables per line. After that- nouns, verbs, adjectives, adverbs, and other lexical categories had to be slotted strategically into each line for the sentence to make any sense. We actually have several different ways of organizing the poem that the image can fall into. 
+
+Accomplishments that I'm proud of
+
+Neither of us had worked with backend or Node before. It was amazing to learn about the backend for the first time at HackNYU. Also, we're proud of taking an overnight 12 hour bus from Canada to get here.
+
+What's next for HaikuBot
+
+HaikuBot cannot wait to expand its vocabulary!
+",,https://github.com/StefanSokic/HaikuBot,https://s3.amazonaws.com/challengepost/zip_files/production/21546/zip_files/HaikuBot_3.zip,"Viacom Prize , Make School Prize",Queen's University,"",Queen's University,Internship,"","","","",ninkle
+Therapy VR -- Healthcare,http://hacknyu2017.devpost.com/submissions/67554-therapy-vr-healthcare,"City Therapy VR is a low-cost, accessible virtual reality physical therapy treatment. Current physical therapy routines for broken bones and replaced hips are dull and painful, with no method of distraction or motivation. With the $20 Google Cardboard, a smartphone, an Arduino, an accelerometer sensor, and a bluetooth module, patients can look forward their daily physical therapy routine, now a city-building virtual reality game controlled by the movements of the limb being stretched. 
+Our current demo is designed for two physical therapy exercises prescribed to a broken arm– rotation of the wrist and extension of the arm at the elbow. In the Cardboard headset, the patient is introduced to the game, where they become a mayor at a desolate city they must rebuild. With rotation of the wrist (captured by the wearable accelerometer), the player clears the existing skyscrapers and with extension of the arm, raises buildings from the ground. 
+As the therapy progresses, the game encourages greater range of motion with a reward system. The greater the angle of movement, the more efficiently the buildings will be destroyed, and the more the created buildings will tower over the others. 
+How does it work? The wearable accelerometer sends information to an arduino to process the data into usable numbers which are then fed into Unity by the bluetooth module. The data allows the player to interact in the game, building or destroying his or her city.
+
+INSPIRATION
+One of our teammates’ grandmother needs physical therapy for her hip but doesn’t do the daily exercises not only because of the pain but also because of its dull nature. Our classmate and hackathon opponent, Maggie, also recently broke her arm while ice skating but doesn’t perform her nightly simple wrist twists. Seeing people all around us disregard their prescribed exercise, we were inspired to make it a more fun and engaging endeavor. If physical therapy can have a game component, wouldn’t it be easier for patients to do their exercise and get better faster? In comparison to most health care components, our solution is also cheap and affordable: all the user needs is our wrist-brace, a smart phone, and a Google Cardboard headset. 
+
+HOW WE BUILT IT
+Our initial prototype is built primarily for people with a broken. Considering that our classmate currently has a broken arm and must undergo physical therapy, we chose her as our user tester and designed the experience around her needs.
+
+The accelerometer and compass gathers data, and is sent to the arduino. The arduino processes the raw data into easy to understand values, before sending it through the bluetooth module to Unity. Unity checks the variables to see what movement has been made and then tells the game to respond accordingly. If the person turns their wrist left to right while looking at a particular building in Google Cardboard, the building gets destroyed. If the person raises their ulna up to their humerus, another building gets raised up. Thus we incorporate the game element somewhat similar to an open sandbox game where the player has the freedom to do what they cannot do in real life. 
+
+CHALLENGES WE RAN INTO
+Setting up Google Cardboard
+Integrating Arduino with Unity
+
+WHAT’S NEXT FOR CITY THERAPY VR:
+We hope to expand our game so that it gets more difficult over time as well as develop a more nuanced experience for people who have to undergo all types of physical therapy whether it is learning to use an arm again or learning to walk.
+
+BUILT WITH:
+Unity3D, C#, Blender, Google Cardboard, Arduino
+",https://youtu.be/3QkkPLnBagE,https://drive.google.com/open?id=0B5uy6selZe-tWTJIWjZzWXVYVXM,,"","NYU Shanghai, Concordia International School","",NYU Shanghai,Full-time,Very well,Salary,Somewhat hard,"",marjoriewwang,dannykong12,joshua2020181,baaria
+Tadu,http://hacknyu2017.devpost.com/submissions/67569-tadu,"Inspiration
+
+Many college students today, including the members of our team, face the issue of managing the countless amount of tasks given to us on a daily basis. In addition, to many of us this happens to be our first hackathon, so we decided to take up an app which is practical to create and applicable to our every day lives. Above all, our team aimed to make  an app to the best of our abilities which we can develop over time
+
+What it does
+
+Tadu is an interactive checklist app that organizes the priorities of the users according to importance, due date, and 
+labels.  As of now, the app allows you input tasks into a database which you can access with the click of a button. However, after future work, the development team hopes to add a feature which increments the importance of tasks over time thus bringing older untouched tasks to the users' attention. Along with that, the team also hopes to add a mobile version of the app for android  and  apple devices in order to help people keep track of their  lists where ever they go! Tadu is an app that will make you say tada when your todo lists become clear!
+
+How we built it
+
+The app is a internet application which can currently be accessed  through a web browser. In order to have it run, we utilized resources provided by the New Jersey Institute of Technology including that of phpMyAdmin and the file system directory. Through the use of several languages including HTML, CSS, JavaScript, PHP, and MySQL, we were able to easily retrieve data from our databases and display them on the users' screens. 
+
+Challenges we ran into
+
+Of course time was the main issue when developing the app. There were many aspects which we wish we could have  included, however because of time constraints, we had to brush over the smaller and  broader details.
+
+Accomplishments that we're proud of
+
+Overall, we are most proud of putting together a completely functional application, despite the fact that it does not fulfill all of the desired tasks intended. When coming to the hackathon, our purpose was not to win, but to learn, develop and push ourselves as coders. 
+
+What we learned
+
+Overall, our team has learned more than we could have ever imagined today. Our backend coders discovered more about PHP and MySQL, and our frontend designers became more  well tuned to HTML and web design.  Above all, our team definitely learned a  thing or two about teamwork.
+
+What's next for Tadu
+
+Our development team will continue to improve on Tadu following the hackathon in order to improve our technical skills while also creating an application that we would all use every day.
+",,https://web.njit.edu/~sfg4/HackNYU/index.html,,"Best Domain Name from Domain.com, Make School Prize","New Jersey Institute of Technology, New York University","",New Jersey Institute of Technology,Internship,OK,"I would like to know about the atmosphere of the work place. I have an easy time adjusting to new settings, however I would prefer to be in around people who communicate.",Not that hard,"",Samuel_Gomez,EggplantPlan,MeganRottkamp,reecasoriano
+Fashion Tree,http://hacknyu2017.devpost.com/submissions/67598-fashion-tree,"Inspiration
+
+We had heard about the impact of clothing on the environment. Companies that deal in fast fashion basically flood the market with cheaply made clothes, without any sort of accountability for sustainability. However, as students, we found it extremely hard to find ethical clothing at affordable prices. 
+
+What it does
+
+Fashion Tree scrapes various websites such as Nordstrom, Uniqlo, etc. for data about clothing items. It analyzes clothing composition, price, and other factors, then returns a sustainability score. Furthermore, it allows the user to filter according to these data points, making for a faster, brand independent shopping experience. 
+
+How we built it
+
+We started with some basic Python web scrapers. Each of us chose a specific website and designed the scraper accordingly. We used regular expressions as well as Beautiful Soup to parse and scrape the information. However, we soon realized that the robustness of the Ruby on Rails model view controller paradigm allowed us to quickly set up a minimum viable product. From there, Rails tools such as Capistrano allowed us to continuously integrate our code into production. We set up a production server for the website, storing most of our data in a Postgresql database. 
+
+Challenges we ran into
+
+As each website was different, we had to tailor the scrapers accordingly. Additionally, some websites have included anti bot software, which forced us to abandon some potential sources of data. Not to mention, with data being in multiple different formats, designing our business logic required some finesse. We had to carefully construct an algorithm that would keep a consistent scale at both extremes, while still being accurate enough to express the sustainability of a given product
+
+Accomplishments that we're proud of
+
+The final algorithm is both intuitive and powerful in its use. It models the material composition of the product as a vector in R^n Hilbert space. This vector is then multiplied using the inner product of the space, by the linear combination of the energy consumption and the water consumption. This algorithm is then scaled to make it intuitive and easy to understand. Combined with a distinctive color coded user interface, the environmental impact of a product can be ascertained with only a quick glance. Our website was deployed within the first five minute of entering the hackathon
+
+What we learned
+
+We learned about the importance of ecologically friendly material in both clothing and electronics. Producing textiles like cotton and polyesther consumes our natures resources, an accumulating cost that we often overlook. It is surprising to see how much energy and water is required to produce a piece of clothing. 
+
+What's next for Fashion Tree
+
+Some additional features we would like to implement:
+
+
+deploying a mobile app 
+having camera capturing ability, allowing user to take a picture of clothing tag
+vertical integration to encompass more everyday items/necessities
+horizontal integration to scrap data from more sources 
+subscription service allowing readers to track the best deals
+design a more accurate algorithm using linear algebra and complex calculus
+using Machine Learning to recognize patterns in user preferences and environmental variables
+
+",,https://fashiontree.life,,"Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize","New York University, Stuyvesant High School","",New York University,"Full-time,Internship",OK,"I like to know about the corporate culture, how programmers approach problems and how they work together as a team. Furthermore, if the office is willing to put long term education over short term goals",Very hard,"It's rather hard finding entry level positions. I'm looking for jobs at startups, but most only have applications for senior positions",NicholasYang,jkao1,aliang8
+Den-Manager,http://hacknyu2017.devpost.com/submissions/67600-den-manager,"Inspiration
+
+ffsdfsdf
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Den-Manager
+",,https://github.com/Nachozombie/Den-Manager,,Verizon Prize,Pace University,"",Pace University,Internship,OK,"",Not that hard,Career Services does great work in my school,Nachozombie,SirAngelOfYork
+Buddy System,http://hacknyu2017.devpost.com/submissions/67603-buddy-system,"Inspiration
+
+I have been in several situations where I was somewhere deserted and found myself being harassed. Because of this I felt that I might be in physical danger but I did not want to contact the authorities on a whim. I have also experienced situations where I was in a crowd and was being harassed and people assumed it was a personal conflict.
+
+I wanted to build a way for people to ask for help from those nearby in order to quickly feel a sense of security. 
+
+What it does
+
+Provides a HELP button that allows a user to send requests for assistance to people within 1000 meters (differs based on population and city) of their current location using geofencing. At time of request, notifications are sent out to the users nearby, who can then choose whether or not they would like to help. If and only if they choose to help, they will be directed to the location of the event.
+
+How we built it
+
+Four front end developers used Android Studios to design and create the application which communicates with a web server. The web server was implemented by one back-end programmer using AWS and it connects to the database, which was also implemented by the back-end programmer. 
+
+Challenges we ran into
+
+One of the challenges we ran into frequently was the usage of Github and being able to merge our work together without losing work done from one of the branches. 
+
+Accomplishments that we're proud of
+
+Finding an idea that we are all passionate about and being able to create a working prototype of it as we envisioned.
+
+What we learned
+
+How to concurrently work with a group and yield individual results that will come together to form a working project.
+
+What's next for Buddy System
+
+Our next direct step will be to fix security issues and cater usability for all locations, as these are issues we have noticed with our application but could address currently due to time constraints. In the future, we hope for Buddy System to become a built-in application in android devices, as it is a form of security that will help make our communities safer with increase in usage. 
+",,https://github.com/ns2574/bejnt,,Amazon Web Services - Best Use of AWS,"NYU, Buffalo University, City College","",NYU Tandon School of Engineering,"Full-time,Internship",Not very well,"Specific skills, training opportunities, better specified level of experience description",Very hard,These answers are applicable to Elon Xie,ns2574,jl5211,timh8780,bjonke,heartlessfinale
+Schedule generator,http://hacknyu2017.devpost.com/submissions/67611-schedule-generator,"Inspiration
+
+Our first idea consisted of a medical prescription and appointment reminder-app filled with prescription information and nearby clinic and medical office locations-- we figured people would want a simplified way of recording and reminding themselves on prescriptions. However, we decided to ditch the idea after a two days of trying to actually design that as an app. Our new idea consists of a _ class schedule generator _. We were inspired to work on this idea because we went through problems that we encountered as students and considered the scheduling for courses, such as how complicated it is to organize an ideal schedule with different class times and possible dates especially when classes close as they fill up. 
+
+What it does
+
+We decided to create a program that organizes an _ ideal class schedule _ automatically from user input of when they want their earliest class and what classes they need and produces the best class schedule combinations with those parameters. These multiple outputs are good for when classes close and provide the user options to choose from.
+
+How we built it
+
+We used the Python language and the Cloud9 platform to collaborate.
+
+Challenges we ran into
+
+Some of the challenges that we ran into were following the logic of actually generating possible schedules and programming it in Python. We also struggled in determining the best way of creating a schedule and what parameters we needed to create an optimum schedule.
+
+Accomplishments that we're proud of
+
+We are proud of the fact that we dedicated ourselves to participating and creating something that we could all collaborate and learn from even though we spent most of the first day working on an idea that we ditched.
+
+What we learned
+
+We learned that perhaps we are not as prepared to create apps and more complicated stuff to participate within a hackathon. However, from this, we learned that we have the patience, drive, and energy to work on a project and to develop our skills enough to create something. Hopefully we can learn a bit more and apply our skills at the next hackathon to create something bigger.
+
+What's next for Schedule generator
+
+We look forward to smoothing the program out and figuring out a simpler way of generating ideal schedules. Hopefully we can program for more parameters/constraints to be inputted, so that users can customize their schedules even more than just based on desired earliest class. Then perhaps we can implement the program into school course registration for wider and public use.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21562/zip_files/hacknyu.rar,"Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize",New York University (Tandon School of Engineering),"",New York University (Tandon School of Engineering),Internship,OK,How qualified you have to be and whether or not they will teach you prior to the internship.,Somewhat hard,"",daherreros,zephyllr,hansen487,mbknott,brandakeran,hkajs
+Meetinder,http://hacknyu2017.devpost.com/submissions/67612-meetinder,"Inspiration
+
+I've always had social anxiety trying to network at events, such as large Meetups or even this hackathon! It's always hard to know who to talk to.  Wouldn't it be great to be able to connect with other people with similar interests before going in an easy way? Then you can arrange to meet before or after the event!  Meetinder provides an easy interface for people attending any event to connect with like-minded attendees, and chat with them.  For this hackathon, people could have used it to form teams, as an example.
+
+The #HackHarassment presentation also really hit a chord, as I know lots of adults, including myself, are still subject to harassment on chat apps.  In Meetinder, I've implemented a zero-harassment policy, starting with banning any racial slurs, and warning users if pretty negative statements are detected.
+
+What it does
+
+The Meetinder mobile app shows you a list of events you are registered for, currently just Meetup.com events, but can expand to others in future.  Once you select an event, it will show a Tinder-like interface, where each card is someone also registered (in future will only be if you have common interests).  If you swipe-right on the person, it will show you their interests (in future this will just be common interests).  You can then choose to message them.  The message screen shows you some fake people currently, and if you click on a person, it'll open a chat screen.  The chat screen will allow you to type is messages, but only if it doesn't violate the zero-harassment policy (starting with banning of any racial slurs).  The chat message also uses sentiment analysis to try to detect negativity statements, but only warns the users if extremely negative statements are found.
+
+How I built it
+
+Started with an existing Tinder clone (https://github.com/VctrySam/Tinder), which had the swipe cards with some fake data set up.  Below are the functionalities I've added:
+
+1) List of my Meetup.com events through Meetup API
+2) Once clicking on an event, it'll show you cards of the actual Meetup attendees (through API), and what skills they have
+3) In mock-messages screen, once you click on a person, it opens a Chat component that I implemented
+4) Chat component will only show the new messages you type first
+5) Each chat message is scanned for inappropriate language (starting with racial slurs).  If any harassment is detected, an Alert pops-up warning user of violation, and message is never displayed
+6) Scraped http://www.rsdb.org/full website for all known racial slurs.  If a message contains the slurs, it will be banned
+7) Used 3rd party sentiment analysis API (https://market.mashape.com/mtnfog/cloud-nlp#) to assess the sentiment score of each message
+8) If a sentiment is fairly negative, then the user will be warned (but the message is still allowed to show)
+
+Challenges I ran into
+
+React-native is still quite new, so a lot of issues getting things to work.  Often still need to go into Xcode to set up parameters or configure things.  Also want to use Google Cloud Natural Language API, but probably won't be able to with react-native at this point.
+
+Accomplishments that I'm proud of
+
+I would personally love to have this app to help me overcome some social anxiety of networking, and allowing me to connect with others at Meetup events.  Furthermore, as a double minority (gay Asian man), I've definitely been subject to a lot of racist comments online.  I've had the opportunity to speak to a CEO of one of the dating apps, and they just say their policy is to let users report issues.  However, clearly the technology exists to minimize harassment online, but the companies are choosing not to implement safeguards for fear of losing users.  To me, this is ridiculous, and my app proves how easy it is to implement some safeguards.
+
+What I learned
+
+I haven't coded in about 10 years, and recently went back to FullStackAcademy to re-learn. It's incredible how much can be done with just javascript and APIs and I'm hopeful to continue to build other cool projects / apps that can benefit others.
+
+What's next for Meetinder
+
+I might spin this off to just be a zero-harassment dating app so that people can truly feel they have a Digital Safe Space to meet others.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21563/zip_files/Meetinder_Overview_R.Sheng.pdf,"",NYU,"","","","","","","",rcsheng
+STrip,http://hacknyu2017.devpost.com/submissions/67620-strip,"Inspiration: Often when we travel for events to other universities we come across the pain of accommodation, food and transportation. The idea behind the application is to provide a cheap, safe and convenient travel for students across the globe.
+
+What it does: If you hold a .edu domain the application provides an interface for students to upload the availability of dorms, accessibility to the meal swipes, and  the convenience of transportation on campus throughout the world for students who are visiting the respective campuses or places around.
+
+How we built it: STrip is made out of XCode. Swift, Python.
+
+Challenges we ran into: We were unaware of how to make servers to store our data.
+
+Accomplishments that we're proud of: To store data on servers we learnt the basics of python to create a server and then host it through Heroku.
+
+What we learned: We learned how to implement servers to store data and expand the usability of the application.
+
+What's next for STrip: We look forward to add new features and functionality to the application. we will have to expand our server implementation in the application to make it completely efficient.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21566/zip_files/STrip.zip,"",UMass,Dell Monitor,UMass Amherst,Internship,OK,How good learning experience it might provide to me.,Somewhat hard,"",araheja
+Panac,http://hacknyu2017.devpost.com/submissions/67635-panac,"Inspiration
+
+I am addicted to Ben and Jerry's Ice Cream, and distracting myself from getting ice cream helped me stay away from my addiction
+
+What it does
+
+Distracts you with memes
+
+How I built it
+
+I used xcode and swift to build my very first IOS application. I also incorporated the meme API and used JSON to Parse through the data
+
+Challenges I ran into
+
+I wanted to incorporate a timer that showed how long you were addiction free, but I didn't have the time or experience
+
+Accomplishments that I'm proud of
+
+I CREATED MY FIRST IOS APP!
+
+What I learned
+
+Everything I built was brand new to me, so I learned quite a bit
+
+What's next for Panac
+
+Hopefully huge growth in the future, this was just a starting point.
+",,,,Make School Prize,Williamsville North High School,"",High School,Internship,Not very well,I want to know the experience gained from working at a job,Somewhat hard,I love small companies that make a big impact,DanVersa,adeelarif,alegna12499
