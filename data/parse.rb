@@ -16,6 +16,11 @@ end
 
 csv[0] = ["table", "project", "link", "sponsors"]
 
+csv = csv.delete_if do |entry|
+  project_name = entry[1]
+  project_name == "Therapy VR - Healthcare"
+end
+
 f = File.open("data.csv", "w+")
 f.write(csv.compact.map(&:to_csv).join("")[0..-2])
 f.close

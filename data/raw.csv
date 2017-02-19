@@ -84,7 +84,7 @@ What's next for Healthy Virtual Reality
 
 Turn it into a cooking simulator!
 ",,https://github.com/Hans-Zhang28/VR_HACKNYU,,"",University of Waterloo,"Alienware Laptop,Oculus Rift,Leap Motion",University of Waterloo,Internship,OK,"I would like to know what type of work I will be doing, the compensation, and also the perks that the company has to offer.",Somewhat hard,"",vincentvuong,Hans-Zhang28
-NYUHackathon2017,http://hacknyu2017.devpost.com/submissions/67365-nyuhackathon2017,"Findit
+Findit,http://hacknyu2017.devpost.com/submissions/67365-findit,"Findit
 
 Findit website
 
@@ -92,13 +92,13 @@ http://ec2-54-210-90-217.compute-1.amazonaws.com:5000/
 
 Inspiration
 
-Very so often we get spammed by ""visionaries"" to implement their idea. So we built an web app that takes upon that brilliant or naive idealism and find the right person to deal with them.
+Very so often we get invited by ""visionaries"" to implement their idea. So we built an web app that takes upon their brilliant ideas and match the right person to help them. Especially in Hackathons, finding a match can same time and stress.
 
 What it does
 
 ""Findit"" is a web-app platform that aims connects main campus students with ideas to school of engineering computer science students with skills. Sign up with your Net ID, school, major, and post your required skill needed for your idea. Not a recruiter? Don't need to post an idea -- just list off your skills!
 
-How I built it
+How we built it
 
 Technologies involved
 
@@ -128,19 +128,19 @@ Import the SQL
 Run by ""python app.py""
 
 
-Started with the database, identified tables and relationships (primary, foreign key constraints). Worked on the server after to retrieve the data from the database and render it with its respective template engine (jinja). Deployed it to the cloud via EC2 Ubuntu. Not hard, just needed to install the LAMP stack and do perform continuous integration with the cloud.
+Started with the database, identified tables and relationships (primary, foreign key constraints). Worked on the server after to retrieve the data from the database and render it with its respective template engine (jinja). Deployed it to the cloud via EC2 Ubuntu. Installed the LAMP stack and performed continuous integration with the cloud.
 
-Challenges I ran into
+Challenges we ran into
 
-HTML and CSS'ing the thing to make it look pretty and presentable. Not my cup of tea (I'm more software architect/developer/engineer). Probably wasted the most time with CSS'ing. Also the NYU API was unanimously deemed garbage or way too arcane. My SQL returned ""duplicates"", which I could have probably easily solved with a multi-value field. 
+HTML and CSS'ing the thing to make it look pretty and presentable. Probably wasted the most time with CSS'ing. Also the NYU API was unanimously deemed garbage or way too arcane. My SQL returned ""duplicates"", which I could have probably easily solved with a multi-value field. 
 
 Accomplishments that I'm proud of
 
-Getting a minimum viable product ready. The backend capabilities turned out to be half the strength of my signature projects, but that's ok -- had fun. Taught and gave a freshman insight on backend infrastructure work.
+Getting a minimum viable product ready. Teamwork was fluid in expressing idea requirements and specifications. Software architecture flow was implemented as planned.
 
 What I learned
 
-Not a lot for me (maybe for my team mates). Should've used docker to migrate my virtual box technology stack to AWS EC2 instance. Was told that would be overkill though. The scale is too small (2 days) and not enough incentive to tryhard.
+Could have used docker to migrate virtual box technology stack to AWS EC2 instance. There was time wasted in downloading LAMP software on cloud servers. Taught and gave team mates insight on backend infrastructure work. Also shared some web design experience as well. 
 
 What's next for Findit
 
@@ -256,7 +256,7 @@ What's next for Edu-venture
 
 There are many features that can be added to this program in the next iterations. Our team has a deep interest in assistive technology for people with disabilities, especially for students. One approach would be to set all in-game fonts to Dyslexie, a font that was created to be more easily read by people with Dyslexia. Another option would be to add a Beeline Reader to help people with Dysgraphia. Additionally, we can have better support for reader programs, to help people who are blind or have extreme cases of dyslexia.
 From a gameplay perspective, we could add more content. In the future we can take the time to develop art resources unique to this game instead of the current placeholders, and we can create new levels that can incorporate additional educational concepts like teaching and courses. 
-",,https://d2zn8gj9t16v1i.cloudfront.net/,,"Amazon Web Services - Best Use of AWS, Make School Prize",NYU,"",NYU,Internship,Very well,How many of their employees are secretly nazis.,Very hard,My skill set is very different from my desired career path.,Andrew-Bo-Lin,mcgreentn,dpa258,LenaRajan
+",,https://d2zn8gj9t16v1i.cloudfront.net/,,"Educational Technology, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Make School Prize",NYU,"",NYU,Internship,Very well,How many of their employees are secretly nazis.,Very hard,My skill set is very different from my desired career path.,Andrew-Bo-Lin,mcgreentn,dpa258,LenaRajan
 muse,http://hacknyu2017.devpost.com/submissions/67486-muse,"muse
 
 HackNYU 2017
@@ -290,7 +290,7 @@ It's OK to be ambitious and to have high hopes for what you want to achieve, but
 What's next for NYU Living
 
 NYU Living has a bright future. We are planning on improving the platform to create more complex search and matching algorithms. These will enhance the overall quality of the services leading to greater adoption by students who want to both be more social and live in the city for a fraction of the cost.
-",,https://github.com/Yixuan-Angela/hackathon-starter,https://s3.amazonaws.com/challengepost/zip_files/production/21543/zip_files/hackathon-nyuliving.zip,"",New York University Tandon School of Engineering,"",New York University Tandon School of Engineering,"Full-time,Internship",OK,"Actual workload, workflows, etc...",Somewhat hard,"",mdk369,xz1776,ac4649,Aangela_a
+",,https://github.com/Yixuan-Angela/hackathon-starter,https://s3.amazonaws.com/challengepost/zip_files/production/21576/zip_files/nyuliving-hackathon.zip,"Make School Prize, Sustainability & Social Impact",New York University Tandon School of Engineering,"",New York University Tandon School of Engineering,"Full-time,Internship",OK,"Actual workload, workflows, etc...",Somewhat hard,"",mdk369,xz1776,ac4649,Aangela_a,arcturusInk
 HaikuBot,http://hacknyu2017.devpost.com/submissions/67536-haikubot,"Inspiration
 
 We think that framing the world around in the form of the three-lined haiku offers a glorious new perspective on our surroundings as well as provoking meaningful and stimulating lines of thought.
@@ -367,6 +367,34 @@ What's next for Tadu
 
 Our development team will continue to improve on Tadu following the hackathon in order to improve our technical skills while also creating an application that we would all use every day.
 ",,https://web.njit.edu/~sfg4/HackNYU/index.html,,"Best Domain Name from Domain.com, Make School Prize","New Jersey Institute of Technology, New York University","",New Jersey Institute of Technology,Internship,OK,"I would like to know about the atmosphere of the work place. I have an easy time adjusting to new settings, however I would prefer to be in around people who communicate.",Not that hard,"",Samuel_Gomez,EggplantPlan,MeganRottkamp,reecasoriano
+NID,http://hacknyu2017.devpost.com/submissions/67590-nid,"Inspiration
+
+We believe that its not the phone number that defined us, but rather, its US THAT MATTER.
+
+What it does
+
+Automatically updates the phone numbers of the user whenever it switches a phone number so other people can contact them even if they have completely no idea what was that person's number.
+
+How we built it
+
+Basically, each of us developed a small part of the application, with one of us ultimately bring every bits and pieces together to form the wonderful application that the world is excited for. 
+
+Challenges we ran into
+
+Deciding whether if we should do this project or the other less-challenging project that have completely no excitement. 
+
+Accomplishments that we're proud of
+
+We are proud to have argubly one of the most amazing application that was developed in history, that we are being able to overcome the awkwardness of people not contacting each other due to them being too shy to ask them for their new numbers. We are proud, to introduce one of the life changing application in the history of social interaction, to you guys. 
+
+What we learned
+
+Having a good team is good; having a team leader who is extremely good at coding is better
+
+What's next for NID
+
+We shall meet up every week to discuss the future of this innovation and see if we could make a company and sell it for billions. You better buy it fast, or else it might get sold out soon. 
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21569/zip_files/sss.zip,"#HackHarassment, Make School Prize","NYU, Jiangsu University, University of Canberra, Dulwich College Shanghai","",Jiangsu University,"Full-time,Internship",OK,"","",From Shanghai,xy838,Consiiii,kennchong,GUOJI,yw2115
 Fashion Tree,http://hacknyu2017.devpost.com/submissions/67598-fashion-tree,"Inspiration
 
 We had heard about the impact of clothing on the environment. Companies that deal in fast fashion basically flood the market with cheaply made clothes, without any sort of accountability for sustainability. However, as students, we found it extremely hard to find ethical clothing at affordable prices. 
@@ -407,19 +435,33 @@ using Machine Learning to recognize patterns in user preferences and environment
 ",,https://fashiontree.life,,"Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize","New York University, Stuyvesant High School","",New York University,"Full-time,Internship",OK,"I like to know about the corporate culture, how programmers approach problems and how they work together as a team. Furthermore, if the office is willing to put long term education over short term goals",Very hard,"It's rather hard finding entry level positions. I'm looking for jobs at startups, but most only have applications for senior positions",NicholasYang,jkao1,aliang8
 Den-Manager,http://hacknyu2017.devpost.com/submissions/67600-den-manager,"Inspiration
 
-ffsdfsdf
-
 What it does
+
+Den-Manager, uses 2 APIs to gather and plot data based on the occupancy of a HackNYU. The tool is useful during real time for the event and also useful even after the event is over. 
+For the live part of the project:
+    Every 60 seconds, our script would scrape data from Density and save it for us to use in a log. If the current occupancy of the room reaches a certain threshold determined by the user, the script uses the SMTP module so that an alert in the form of email is sent to the user. 
+For the live part and/or even if the event has concluded:
+    On command, it takes the data from the log and graphs it onto a scatter plot and/or a bar graph at Plot.ly.  The scatterplot shows uses each data entry for every minute on the clock is represented with one dot on the plot (If there are 300 data values, then the bar will have 300 dots). The bar graph takes the average number of occupancy over a 30 minute time frame (if there are 300 data values, then there will be 10 “bars” on our bar graph, each bar representing 30 minutes). 
 
 How we built it
 
+Den-Manager is a python script. We initially were super confused by the documentation on density.io and had no idea on how to access the api with the api key. We wrote a web scraper that read the html from livecount.hacknyu.org as our means of indirectly getting data from Density. The script would then log the timestamp and person count. 
+    For graphing, we used a script to open our log files and sifted through it for the appropriate personcount number. We formatted the data, initiated a plot.ly instance and sent our data to the service.  Our requested graph would be automatically launched on our browser.
+    The email notification service was written using the smtp python module. When the threshold was met live, an email was sent to ourselves alerting us.
+
 Challenges we ran into
+
+We initially could not get the Density API to work the way we wanted it. So Andrew came up with the idea to take the data from the HackNYU live count website because if HackNYU could retrieve data from density correctly, then we could piggy back on it as well. At a certain point, the density machine box on top of the doorway restarted or something, so even though there were 100 people at 8:00am Sunday morning, at 8:01 the counter showed 0. 
 
 Accomplishments that we're proud of
 
+One of the first accomplishments that we had was when we started getting all the data from the live count. After letting Den-Manager run for a little, we ran it and it printed all of the data that was collected so far. It was very cool and satisfying to see all that raw data. Another one would have to be when we got the data and plotted into the first scatter plot. It was very interesting seeing the patterns of when people leave and the gradual drop of occupants as HackNYU went on.
+
 What we learned
 
-What's next for Den-Manager
+Angel Javier Rojas: I’m glad to have accompanied my friend Andrew to this, my first hackathon. I learn of a lot new and interesting things while I was here. I learned a little bit of node.js and JavaScript. Since my friend Andrew prefers to use Python over Java, I learned some Python in order to be of use to him and I followed his instructions. Although I felt like an idiot, it was exciting to learn a new language and I still have a lot to learn about Python. I hope to learn more and, maybe next time, use what I learned here at a future hackathon.
+
+Andrew Ku:  Better time management HAHA
 ",,https://github.com/Nachozombie/Den-Manager,,Verizon Prize,Pace University,"",Pace University,Internship,OK,"",Not that hard,Career Services does great work in my school,Nachozombie,SirAngelOfYork
 Buddy System,http://hacknyu2017.devpost.com/submissions/67603-buddy-system,"Inspiration
 
@@ -531,7 +573,7 @@ Accomplishments that we're proud of: To store data on servers we learnt the basi
 What we learned: We learned how to implement servers to store data and expand the usability of the application.
 
 What's next for STrip: We look forward to add new features and functionality to the application. we will have to expand our server implementation in the application to make it completely efficient.
-",,,https://s3.amazonaws.com/challengepost/zip_files/production/21566/zip_files/STrip.zip,"",UMass,Dell Monitor,UMass Amherst,Internship,OK,How good learning experience it might provide to me.,Somewhat hard,"",araheja
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21566/zip_files/STrip.zip,Sustainability & Social Impact,UMass,Dell Monitor,UMass Amherst,Internship,OK,How good learning experience it might provide to me.,Somewhat hard,"",araheja
 Panac,http://hacknyu2017.devpost.com/submissions/67635-panac,"Inspiration
 
 I am addicted to Ben and Jerry's Ice Cream, and distracting myself from getting ice cream helped me stay away from my addiction
@@ -560,3 +602,1738 @@ What's next for Panac
 
 Hopefully huge growth in the future, this was just a starting point.
 ",,,,Make School Prize,Williamsville North High School,"",High School,Internship,Not very well,I want to know the experience gained from working at a job,Somewhat hard,I love small companies that make a big impact,DanVersa,adeelarif,alegna12499
+VoiceHover- Turning Vision to Voice,http://hacknyu2017.devpost.com/submissions/67647-voicehover-turning-vision-to-voice,"Inspiration
+
+When it comes to Cerebral Palsy and other potential diseases that causes immobility and speech impediments, the options that are available to give someone voice are often expensive and out of reach for many. Because of this, people with this condition have often had to rely on head mounted lasers, a print out, and the assistance of others to speak their voice. We wanted to change this and provide a low cost option that would turn voice to vision- thus introducing VOICE[H]OVER.
+
+What it does
+
+VOICE[H]OVER works much like the head mounted laser and print out, but is notably different because of its ability to export inputs into a .txt file that can be read by a Python code that will speak with natural language. When used effectively, it can be used to eliminate the necessity of help from others. It is unlike other options of this technology because it is affordable and only needs a computer with a webcam. 
+
+How we built it
+
+We built VOICE[H]OVER primarily using Processing and an Open CV to track the laser. This program then converts the inputs into a .txt file that can be read by a Python Script attached to natural language processing.
+
+Challenges we ran into
+
+Although we worked tirelessly to include completed options of eye tracking and predictive text, we could not get this into the final state. To show our development, however, we included this code as well, so you can see the progress we made. We even have a fun, though challenging, eye tracking game you can try! 
+
+Accomplishments that we're proud of
+
+We are proud that our friendship is still in tact ;) and that we were able to get as far as we could when we didn't think even half of this was possible.
+
+What we learned
+
+Don't think too big. Focus on the main goal and take it step by step. Know what goals are stretches and what is more realistic. 
+
+What's next for VoiceHover
+
+To include data stability, eye tracking, predictive text, and an overall better design. 
+",,https://github.com/shikhar394/HackNYU ,https://s3.amazonaws.com/challengepost/zip_files/production/21570/zip_files/HackNYU.zip,"",NYU Shanghai,"",NYU Shanghai,Internship,Very well,"","","",shikhar394,tpr226,mmwalsh4
+Quasar Quiz,http://hacknyu2017.devpost.com/submissions/67655-quasar-quiz,"Inspiration
+
+We wanted to make a game that would make learning more fun, my teammate suggested tower defense as the base of the game, and had the education part be based on flash cards as lots of students find that flash cards are the best way to study. 
+
+What it does
+
+Quasar Quiz is a educational game that encourages high school students to use flash cards. Flash cards have been widely accepted as one of the best studying techniques, yet common complaints include inability to properly create them, being mundane, and time consuming. The game is similar to tower-defense where the player has to defend Keplar-22b from multiple waves of enemies. If you answer one of the questions incorrectly, the upcoming levels will become more difficult.
+
+How I built it
+
+We used the Phaser.io  framework, an HTML5 game framework
+
+Challenges I ran into
+
+Learning the how to use Phaser
+
+Accomplishments that I'm proud of
+
+Learned how games are made, learning game theory and a new framework
+
+What I learned
+
+Learned how to make a game with Phaser
+
+What's next for Quasar Quiz
+
+Have user input answers, allow users to make up their own questions, add more complex game mechanics, add revenue system
+",,https://github.com/renisalcedo/Quizar-Quiz,,"Educational Technology, Viacom Prize ","Cornell University, Brooklyn College, Rutgers University - Newark, LIU Brooklyn, Kingsborough Community College","",LIU Brooklyn,Internship,OK,"Benefits, dress code policies, preferred programming languages for the job, and typical hours per week for an employee with the applied-for position at the firm.",Somewhat hard,"",pokelegocuber,Reni,Thotsaphon,brendon-nguyen,scarfbro
+Lung Cancer Detection using Deep Learning,http://hacknyu2017.devpost.com/submissions/67656-lung-cancer-detection-using-deep-learning,"Inspiration
+
+We identified the lung cancer is one of the most critical diseases, for the chance that a man will develop lung cancer in his lifetime is about 1 in 14 and for a woman, 1 in 17. It is crucial to detect cancer at early stage to ensure timely treatment and increase survival rates.    
+
+However, the diagnosis process is time-consuming and prohibitive, which hinders people for actively monitoring their health conditions. Furthermore, the manpower cost to hire a specialist for hospitals is costly in terms of both time and finance, with an extensive training required.    
+
+After exploring the elegance of machine learning, we believe that the deep learning methodology can contribute largely towards this pressuring issue. Within 2 days, we built LCD, an innovate deep learning tool dedicated to lung cancer diagnosis.    
+
+What it does
+
+LCD accelerates the detection process for lung cancer. Users can simply upload CT scans to LCD website and get the diagnosis results within minutes. It not only detects potential cancer nodules, but also eliminates false positive nodules to ensure higher accuracy.   
+
+How we built it
+
+We trained the image segmentation model using neural networks, specifically, U-Net. Then we use the Residual Networks to eliminate the false positive samples. We trained the neural networks with Tensorflow framework. The model is running interactively on a GPU server. A web app is built with Python Flask framework that allows users to have minimum trouble of getting diagnosis immediately.    
+
+Challenges we ran into
+
+Time constraint for deep learning is beyond our expectation. Usually, it takes 2 weeks to train a fully functioning LCD, but we do not have the luxury of time to make a complex and sophisticated LCD from scratch within 2 days. It's depressing to realize that the sophisticated version that coders have spent the entire first-day writing might not be able to implement completely. However, we made some necessary adjustments and manage to present the first version within 48 hours.   
+
+Accomplishments that we're proud of
+
+Product
+We are proud to build a product with strong future applications and positive implications towards the society. Deep learning for cancer detection is such a fascinating field that illustrates the combination of two seemingly irrelevant areas. NYU has taught us the importance of critical thinking and cross-thinking, and we are grateful for the analytical skills as well as technical skills we manage to gain and apply. We will definitely continue exploring the field, building a version beyond the current Hackathon and bringing some positive changes to the society.   
+
+Technology
+We have learned more about deep learning, in terms of structure and applications. The experiential learning experience enables us to apply what we're taught in school, mentors and workshops provide us with more timely advice on the product and the time constraint pushes us beyond our comfort zone (and procrastination).   
+
+Teamwork
+The most importance accomplishment in the journey is the great teamwork. We literally formed the team 10min before the official start of the hackathon, and are presently surprised that we complement each other in terms of skill sets. As a three-man team, we worked coherently -Yichen did the complex algorithm, Shining built the website and user interface, and Yamei wrote the content. Although our team is smaller, we are proud that we made new friends and built LCD together within the past 2 days.  
+
+What we learned
+
+Manage your expectations and stay realistic.
+The first lesson is to manage your expectations realistically. Within the short duration, it is nearly impossible to achieve a final design for a tool that normally takes weeks to finish. However, going through the thinking process for the sophisticated algorithm made us optimistic about the future of LCD, and would love to continue working on it. It's good that we tried.   
+
+Persistence is the key. 
+There are struggles and challenges, actually much more that we thought. Staying optimistic, making necessary adjustments and never giving up are the critical steps we've learned, not only for hackathons or coding but also for everything we do in life.  
+
+Enjoy the process.
+Doing things we love and learning new things along the way are simply amazing! The struggles we went through, the pizzas we shared and the product we built eventually are an amazing learning experience and we will do it again.   
+
+What's next for Lung Cancer Detection using Deep Learning tool
+
+We are going to upgrade the current product and enhance the accuracy of diagnosis. We will continue research and lab experiments in NYU, consult NYU professors and mentors for future development
+
+Moving on, we will conduct further analysis on the market potential, competitors and industry outlook for the sector. If the growth potential is high, we will consider to commercialize the product and make real changes to people's lives.
+",,https://github.com/MrShininnnnn/HackNYU-2017-LCD,,Healthcare,New York University,"","","","","","","",PriscillaWang,yg1053,Shining
+Med-Care,http://hacknyu2017.devpost.com/submissions/67660-med-care,"Med-Care
+
+Inspiration
+
+Many patients’ basic needs are managed poorly, causing unnecessary expenditures on legal interventions and poor customer ratings. On the other hand, part of the nurses’ strategic approach to address patients’ demands is to prioritize the tasks based on Maslow’s hierarchy of needs, which places physiologic need as a top priority. Communication barriers put patients’ safety in jeopardy. Some patients cannot express their needs because they are either physically in too much pain or simply cannot communicate due to not being proficient in the language that the doctors and nurses in the hospital speak. Such, is the case for one of our fellow group members who is currently part of a lawsuit due to medical malpractice. If the nurses could have been more attentive or aware of the situations, our group member’s father could potentially still be alive today. Nevertheless, the product is extremely viable. Imagine, taking your elderly grandma or grandfather who cannot speak the language of the area or may not be able to speak properly due to pain. This fine line is what inspired Med-Care. The desire to make communication between patients and their nurses inspired a product that will aid nurses in knowing what is going on with the patient as well as allowing patients to be served in a proper manner. Take the situation in an emergency room where the stakes are high and patients need to be taken care of urgently. In the E.R., anyone’s job becomes difficult and stressful because the possibility of death lingers between the doors and the patient's room. Imagine an extremely busy day, the nurses are running around attempting to accommodate for every patient. Out of nowhere a loud yelp is released asking for help. The nurses run to the patient to attempt to aid the patient while avoiding lawsuits for neglects. When they arrive to the patient, they discover that all the patient needed was a glass of water. These are situations that could potentially distract nurses from aiding a patient that needs more help than another one. In order to save lives and avoid lawsuits the best product for a situation like this is something that will make the communication between nurses and patients safer and qualitative. 
+
+What it does
+
+Med-Care is an app that can be downloaded onto your phone. The application is supposed to show patients six simple options in the form of icons: food, water, bathroom, clean-up, medicine, and nurse assistant needed. When an icon is pressed, the app will send a notification depending on the icon clicked to all surrounding nurses. The nurses will then decide amongst themselves who will complete the task. Once a nurse has called the task, the nurse will have to complete the task. Once the task is completed, the nurse will need to scan the QR code on the patient in order to notify all other nurses that the task has been completed. 
+
+How I built it
+
+The night began with an extensive amount of brainstorming. We started with highlighting the problem and creating possible solutions to the problem of lack of communication between patients and their nurses. Once we identified exactly what we wanted to do, we began downloading and finding the necessary resources to complete the task. We began by opening Ionic Framework and shaped how our app would look like. The idea first involved having a separate clicking mechanism that would connect via Bluetooth to the nurse’s phone or in-house electronic device. However, that quickly had to be thrown out as we had no such device on us. So, we decided to continue with making an app that both the nurse and patient could use. We prioritized the fact that the patient may not be able to speak the language of their environment. So, instead of having typed in commands, we included basic pictures of actions and request a patient may need during their hospital visit. These pictures are sent up as a link between the patient and nurses nearby. The nurses receive the notification, and the added API (in this case a QR scanner) is used to shut off the notification once one of the nurses has accomplished the task for the patient. The app runs on HTML, CSS, and Typescript.
+
+Challenges I ran into
+
+Throughout the process of developing the app, there were various challenges we faced, with one of the first ones being which project to do. We had multiple ideas and had various approaches to solving the problem. However, once an idea was decided, the rest became easier. The next biggest challenge was the programs we used. For some odd reason, certain programs did not want to run on some of our laptops; if they did run, sometimes they would crash. This made coding extremely difficult. In the end, we were only able to use one laptop for the coding of the whole design. Another large challenge we faced was in the design of the product itself. We wanted to have a separate device (such as a clicker) that would connect to the WiFi of the hospital. However, we did not have the technology to do so. So, instead of giving up on the whole idea, we made the whole product into a single app.  
+
+** Accomplishments that I'm proud of**
+
+The team that created Med-Care was not previously built in preparation for the hack-a-thon. The team was spontaneous and was created the day of the actual event. Many of us came with our own ideas and did not have a lot of experience in hack-a-thons. 75% of our team was made of first timers. Therefore, one of the biggest accomplishments for the team was actually being able to complete an idea. Ideas do not always get made, but for once, the idea of Med-Care escaped the realm of imagination and moved into the world of reality. That is definitely something that we can all take pride in accomplishing: actually making something!
+
+What I learned
+
+One of the biggest lessons we all learned is that planning, collaboration, and time management are crucial for an event that has a short time limit. Being a team composed of strangers, collaborating was awkward at first because we did not know each other at all. However, due to the time limit, we looked the other way on the stranger’s thing and got straight to work shooting down each other’s ideas as well as agreeing with the good ones. The planning component was a significant lesson to be learned. Coming into the event, we all understood that it was 48 hours and in that time frame, we would need to create something viable. We learned quickly that we needed to plan ahead for the two days. That meant having hourly checkups and scheduling naps. The planning lesson also taught us a lot about time management. Knowing that we were confounded to the time period given to us, we knew that we would need to manage our time, especially if we were going to collaborate with each other. Being able to quickly learn how to apply planning, time management, and collaboration with a bunch of strangers are lessons that will follow us through our careers. 
+
+What's next for Med-Care
+
+In the future, we hope to be able to implement new technologies to hospital experiences. One of the main components we would like to implement into our design is the use of a clicker so patients are not required to download anything and the only ones who would need to download anything are the nurses. We would also like to add a translator to the system so in case the patient needs to explain something specific to the nurse, the nurse could use the in-app translator. However, because hospitals require a live and certified translator, we would also like to create a database that holds access codes to those translators. This process would decrease the time to reach a translator for the patient and therefore increase the efficiency of the hospital. Another aspect we would like to add on top of that is a feature that numerically calculates the time that nurses take to respond to the patients' needs. This feature will then provide the hospital with reliable and relevant information that could be used to promote the benefits of going to their hospital. Lastly, Med-Care would like to expand into the world of artificial intelligence. As we grow progressively closer to having homes such as that of Mark Zuckerberg of Facebook where he lives with his Artificial intelligence Jarvis, we begin to notice that we can also begin to integrate hospitals in that way. For example, using something like the Density API, we can monitor when patients attempt to leave their bed and check to see if they are in some sort of discomfort. This in return will yield positive effects, as hospitals will become safer and inevitably lead to fewer deaths and less lawsuits. 
+",,https://github.com/anugra96/Med-Care,https://s3.amazonaws.com/challengepost/zip_files/production/21573/zip_files/Med-Care-master.zip,"Healthcare, Best Domain Name from Domain.com","Rory Meyers College of Nursing, Tandon School of Engineering, University of Waterloo","",University of Waterloo,"Full-time,Internship",Very well,The hardest thing to do when seeking a job upfront is understanding the corporate culture that the company has.,Somewhat hard,"",cvd268,AnugraShah,jb6119,mcr517
+NYU Go,http://hacknyu2017.devpost.com/submissions/67661-nyu-go,"Inspiration
+
+With the announcement of Amazon Go, we were inspired by its innovative product that allows for easy and quick purchase. It reminds us of the slow, tedious process of purchasing food and other items when we visit the dining halls of NYU. 
+
+Thus, we thought of NYU Go, an app designed to make easy and quick purchases with the click of a camera.
+
+What it does
+
+NYU Go initially requires you log in and once you have, it takes you direct access to submit an image or take one of a barcode. Once you have submitted an image, it reads the image and price and asks for you to confirm your purchase. When confirming, the user is taken to a page filled with his/her previous transactions.
+
+How We built it
+
+NYU Go is a web app created and coded with the Flask framework. We styled the app with HTML/CSS/Bootstrap and designed the logo in Photoshop. We also used SQLite for database and storage. Javascript was used to identify the contents of the barcode scanner.
+
+Challenges I ran into
+
+Considering more than half of us were first time hackers, we were struggling initially with how to implement the various programs into the Flask framework. The barcode scanner application had also taken a lot of time as well as the application's database in SQL, which we were completely unfamiliar with. 
+
+We also tried hosting our application with Amazon Web Services but unfortunately we weren't able to learn how in time.
+
+Accomplishments that I'm proud of & What I learned
+
+Coming into the hackathon, we had no prior knowledge of SQL, databases, Javascript but luckily we managed to set up a database that can be manipulated and used throughout the application. Our barcode scanner which initially gave us much trouble managed to work in the end.
+
+What's next for NYU Go
+
+Our goals to further improve NYU Go are to improve overall functionality and UI/UX. We want to improve our barcode scanner  so that it can scan any type of barcode effectively. We also love to have and develop a database that is able to identify any type of barcode and generate the price of the item. 
+",,https://github.com/ml4963/hack-nyu-2017,,"Educational Technology, Make School Prize",New York University,"","",Internship,"","","","",ml4963,kevinfoo1212,vuongaustin,nathanly2
+asdasdas,http://hacknyu2017.devpost.com/submissions/67665-asdasdas,"Inspiration
+
+asd
+
+What it does
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for asdas
+",,,,"",asdasd,"","","","","","","",anabolsoni
+SolarSystemScroller,http://hacknyu2017.devpost.com/submissions/67668-solarsystemscroller,"Inspiration
+
+I wanted to make an educational app using a scrolling activity and I thought scrolling through the solar system sounded neat.
+
+What it does
+
+It lets you scroll through the solar system. When you click on the planets, it gives you some statistics and fun facts!
+
+How I built it
+
+I built SolarSystemScroller in Android Studio.
+
+Challenges I ran into
+
+The main challenge was a lack of time and experience. Every time I wanted to add a feature, I had to learn 
+
+Accomplishments that I'm proud of
+
+My team gave up on our project last night, but I still wanted to make something. So, I learned Android Studio and made this overnight.
+
+What I learned
+
+I learned a lot about Android Studio. This was my first time using it to such an extent.
+
+What's next for SolarSystemScroller
+
+Adding the Sun and adding a navigation drawer that lets the user access different solar systems.
+",,https://github.com/TiaraIsTan/SolarSystemScroller,,Educational Technology,New York University,"",New York University,"Internship,I'm not seeking a job opportunity","Very well,OK","I have a hard time finding out the vibe and feeling of a company's community. If they don't have a positive and social community, they tend to cover it up.","Somewhat hard,Not that hard","",TiaraIsTan,Ollama
+WATGuru,http://hacknyu2017.devpost.com/submissions/67669-watguru,"DEMO NOTE: Only accounts with google classroom enabled can log in, such as .edu emails
+
+Inspiration
+
+Many times during a lecture the professor says something and we go ""WAT"" we're too embarrassed to a ask a question or the professor goes on too fast to answer any questions.
+
+What it does
+
+This app lets students anonymously submit their ""WATs"" when they are confused and the professor can get to the questions and clarify when he can.
+
+How I built it
+
+React, Google Classroom API, FireBase, Python, Flask
+
+Challenges I ran into
+
+NoSQL mindset, Coordinating data from various sources
+
+Accomplishments that I'm proud of
+
+Making it work
+
+What I learned
+
+Learned how to use Firebase. Learned how hard to use google app engine is.
+
+What's next for WATGuru
+
+Improve UI, add graphs, add more LMS systems for synchronization.
+Add more user types (TAs, multiple teachers per course)
+",,https://github.com/nashahzad/WatGuru,,"Educational Technology, Best Domain Name from Domain.com, Viacom Prize ",Stony Brook University,"",Stony brook university,Internship,OK,"",Somewhat hard,"",adibalwani02,nashahzad
+UniMeals,http://hacknyu2017.devpost.com/submissions/67675-unimeals,"UniMeals
+
+A small Android app I wrote for HackNYU 2017. 
+The idea behind it is that students with school meal plans tend to try and save their meals in case they might need them later, which generally ends up in them having lots of leftover money at the end of the semester and buying out the entire cafeteria to try and spend it before it expires.
+This app takes in the number of meals a student has on their plan, how much money they have to spend, and how much longer they have in the semester, and gives them a schedule for their meals for the week.
+For example, it might say to use meals from their plan for lunch and dinner, and to eat breakfast at home and spend this much money at a restaurant for dinner the next day.
+Possible features that could be added in the future include allowing users to automatically deduct meals and/or money from the remaining amount after using them, and using an API like Yelp's to display a list of nearby restaurants which would be easy on a student's budget.
+",,https://github.com/jordanagreen/UniMeals,,Educational Technology,NYU,"",NYU,Internship,Very well,How to get enough experience to get a job without having a job to get experience.,Very hard,"",jagman1x3
+Machine Learning + Psychology for water sustainability,http://hacknyu2017.devpost.com/submissions/67681-machine-learning-psychology-for-water-sustainability,"I wanted to see if I could identify a water appliance being used by the sound of its water flow. I found that I could and built a machine learning model that can accurately identify shower use and toilet use.
+
+See google slides link for more details
+
+https://docs.google.com/presentation/d/1kv60Dx2Xxf-AimM06CnA16I6Vn-R176749e4GyOMU3U/edit?usp=sharing
+",,,,Sustainability & Social Impact,The College of William & Mary,"",The College of William & Mary,Full-time,OK,Personality of the company,Not that hard,"",NickRance
+openSec,http://hacknyu2017.devpost.com/submissions/67686-opensec,"Inspiration
+
+
+There is a growing disconnection between people and the items they use. This is notable as the Generation Z cohort increasingly adapts to technology, despite a growing abstraction between the system and the user.
+Although there are many massive breaches, many of them are posed as foreign actors acting aggressively when often enough, the vulnerability is simple and committed by a sole individual.
+Hackathons are focused on building projects. As xkcd references, towards the deadline, code quality often gets thrown out the window. Lower code quality is simply prone to more vulnerabilities.
+Privacy is non-existent in this current surveillance state.
+
+
+What it does
+
+openSec is a non-profit platform that aims to bring quality cybersecurity education
+to students of all ages. openSec is track-based, and relies on a CTF/wargames style-manner
+in order to foster problem-solving and competition.
+
+How we built it
+
+Jonathan built the backend, and Alan worked on the front end and server for the CTF/wargame.
+
+openSec's CTF platform is built with Python's Flask API, as well as responsive HTML/CSS.
+openSec is hosted on a physical server at the moment, running Ubuntu Server. The client and challenge
+manager is built with C and Linux bash, utilizing the power of nCurses API for text user interfaces.
+
+Challenges we ran into
+
+C is a very low level language and Alan faced a lot of problems in terms of memory. nCurses is also very undocumented, and became a problem when he attempted to build the CTF management system.
+We were not able to get AWS, so we had to rely on a local server to do the 
+
+Accomplishments that we're proud of
+
+
+Learning nCurses as an API for C in under 24 hours.
+Working with cybersecurity, and being content to see what it can actually do to help impact educational growth and progression.
+Growing our skills as programmers, and discovering a passion in entrepreneurship.
+
+
+What we learned
+
+
+Never use nCurses again.
+NodeJS is cool, but Flask gives the Python developer a god complexity.
+
+
+What's next for openSec
+
+*Funding and grants (i.e. HackerFund).
+
+
+Migrating to a VPS or physical dedicated server
+Building a custom Linux operatings system for the CTF/wargame competition.
+Work on the CTF management system.
+
+",,http://www.opensec.tech,https://s3.amazonaws.com/challengepost/zip_files/production/21580/zip_files/index.html,"Educational Technology, #HackHarassment, Viacom Prize , Make School Prize, Sustainability & Social Impact","Francis Lewis High School, Stuyvesant High School",Dell XPS Laptop,"","","","","","",ex0dus-0x,Randompi
+Assteroid,http://hacknyu2017.devpost.com/submissions/67689-assteroid,"Assteroid
+
+A fun game!
+",,https://github.com/BrandonSu/Assteroid,https://s3.amazonaws.com/challengepost/zip_files/production/21582/zip_files/Assteroid-master-6.zip,Best Domain Name from Domain.com,NYU,"",NYU,"Full-time,Internship",OK,What kind of duties I'll be assigned,Somewhat hard,"",brandonsu
+Lexiko,http://hacknyu2017.devpost.com/submissions/67690-lexiko,"Inspiration
+
+Patients often do not understand the medical terminology that they see on their reports - therefore, it is difficult to make sense of it and apply it to their day-to-day life. This app will bridge this gap in this understanding, and help patients take on ownership of their bodies and increase awareness of any risk for diseases they may have.
+
+What it does
+
+The app takes in medical information from a picture (of the medical report), and translates that to an easy-to-understand Android interface. There is an interactive, 3-D model of the organ that is at risk, which allows patients to visualize where exactly the illness is taking place. Furthermore, the application defines the illness in colloquial terms, provides a list of symptom and diagnosis tools, as well as advice on how the patient can change his or her lifestyle to mitigate the possibility of at-risk diseases.
+
+How we built it
+
+We first sent images through Android with socket.io to the AWS server; then, we set the image to gray-scale using PIL library. Next, we used pytesseract to read the characters on the image. We scraped WebMD to search for specific key words and retrieved medical information that could be used to advise patients through the application. Finally, we developed the application front-end through Bulma, which renders a 3D image of the affected organ.
+
+Challenges we ran into
+
+Scraping WebMD, finding pertinent sample medical records and information online, centering divs, sleep deprivation
+
+Accomplishments that we're proud of
+
+Finished app on time
+
+What we learned
+
+Coding skills!
+
+What's next for Lexiko
+
+$$$$
+",,https://github.com/mdnahian/lexiko,,"Assistive Technology, Healthcare, Educational Technology, Amazon Web Services - Best Use of AWS","Rutgers University, New York University","",Rutgers University,Internship,OK,"Competitiveness, Compensation, Challenges, Opportunities + Skills Developed, Exit Opportunities",Not that hard,"",michellehuang42,mdni007
+PAS Health,http://hacknyu2017.devpost.com/submissions/67692-pas-health,"Inspiration
+
+Losing weight is really hard and there's a lot of fad diets with no science. If only there was something that collects data on diets and could recommend a working one.
+
+What it does
+
+Uses a neural net to learn from entries and daily users to recommend diets that work.
+
+How we built it
+
+Web-app is built with Django and AI is written in python
+
+Challenges we ran into
+
+Normalizing the data and getting the thereshold correct
+
+Accomplishments that we're proud of
+
+Working AI
+
+What we learned
+
+Ajax calls, AI fundamentals
+
+What's next for PAS Health
+
+Improve AI and talk with genetics lab
+",,https://github.com/Siimon13/PAS-Health,,Sustainability & Social Impact,New York University,"",New York University,"Full-time,Internship",OK,"",Somewhat hard,"",uphonia,Siimon13,pakp122134
+PhotoOpt,http://hacknyu2017.devpost.com/submissions/67696-photoopt,"Inspiration
+
+In the show How I Met Your Mother, there's a runnig joke that Barney Stinson can't take a bad picture, and at it's core our app does just that. If you've ever tried to take a group photo or the perfect shot you know it can be frustrating and unsuccessful. Our algorithm will take a series of frames and select the frame in which the whole group looks most photogenic, based on everyone's presence and facing the camera, blinking, smiling, and other facial features.
+
+What it does
+
+Takes a short video or a sequence of images, and gives back the frame in which all the participants are most photogenic using Principal Component analysis and regression algorithms. While we trained the model for photogenicness, the core algorithm is broad enough to be trained on a variety of factors such as professionalism, happiness factor, etc. It can be a great as well for those with impaired vision, or those with Parkinsons to take the perfect photo.
+
+How we built it
+
+We used a mobile face detection API to detect certain quantitative facial features. We trained a regression model after performing Principal Component analysis on these facial features, as well as calculated feature ratios, all on scraped online photo data. We used this regression model within a mobile app, and implemented additional Android functionality, including a camera implementation.
+
+Challenges we ran into
+
+Dividing a video into a series of high rate frames was difficult if not impossible to process within the Android framework, so instead we created our own camera implementation to save frames from the incoming byte stream.
+We also initially trained a PCA neural net as our regression model but then needed a server connection to process each photo. Instead, we settled for PCA and a less calculation-intense regression model to be able to do all the calculations on the mobile device. We also wanted the training data to be consistent and the API only exists in the Android framework, so all of our training data had to be processed through Android as well.
+
+Accomplishments that we're proud of
+
+We were proud to be able to combine our interests in machine learning and mobile app development. We ran into a lot of problems but we were able to create a minimum viable product that is fully functional.
+
+What we learned
+
+We learned how to practically apply machine learning to a real world case, and many specifics of the Android framework. 
+
+What's next for PhotoOpt
+
+Our current implementation of the camera is rather slow and not completely optimized. We expect to make this much smoother in the future. We are also looking to improving the machine learning algorithm, although the performance already seems very reasonable.
+",,https://github.com/ryan9lim/PhotoOpt,,"Assistive Technology, Verizon Prize",Yale University,"",Yale University,"","","","","",ryan9lim
+Latinissimus,http://hacknyu2017.devpost.com/submissions/67698-latinissimus,"Inspiration
+
+We were two young children in a far, far away high school where we had the opportunity to take Latin. We found learning the language, translating ancient Roman literature, and discovering the Roman culture very interesting. However, we were surprised by the amount of people who thought Latin was a dead and useless language. 
+
+So we're bringing Latin alive and out of its grave with Latinissimus, a game revolving around mythology that is designed to help learn Latin vocabulary. We decided to focus on the journey of Odysseus (also known as Ulysses in Latin) from The Odyssey, in which he had to face Polyphemus the Cyclops inside a cave. We hope that Latinissimus will spark interests in Latin and ancient Rome.
+
+What it does
+
+Latinissimus gives the player a list of Latin vocabularies along with their English translations prior to the start of the game. Then the player is given control of Ulysses, who has the ability to jump to dodge the incoming Cyclopes, or use his sharp wooden dagger to attack the Cyclopes. Each Cyclops has a Latin vocabulary above its head, and the player must avoid the incorrect Cyclopes by jumping, but attack the correct Cyclops. Touching Cyclopes or attacking the wrong Cyclopes will take away lives. When all lives are used up, the game is over.
+
+How we built it
+
+We used the Pygame module in Python 3 to build Latinissimus. The sprites and art are custom made using a Clip Studio Paint.
+
+Challenges we ran into
+
+The first challenge we ran into was learning how to use Pygame. The tutorials and documentations seemed really overwhelming, and we felt discouraged already so early on in the process. We were not sure if Latinissimus was an idea we should go forward with, but we decided to stick with it and do our best.
+
+One of the other challenges we ran into was getting the different sprites to detect each other. Even though Pygame simplifies the collision detection between sprites, we wanted to detect collision between specific areas of the sprites from a group, which made the process more difficult.
+
+Another challenge we ran into was randomizing the cyclopes so that each one had its own Latin word attached to it and would enter into the display screen in a systematic manner.
+
+Accomplishments that we're proud of
+
+We have something that works. There are multiple characters in the game and we can detect the interactions between the characters.
+We also managed to solve the problems the we mentioned previously while making the game.
+I’m also happy we have our own art ^3^
+
+What we learned
+
+The two of us don’t have much experience in making games and we were both interested in learning. We learned how to use Pygame to create games, which was challenging at first because we were not familiar with it, but after watching tutorials and looking through the documentation, we were able to figure a lot of stuff out along the way. It was interesting to learn about the background work that goes into making games that we normally don’t think about.
+
+What's next for Latinissimus
+
+We want to implement more levels in the future, perhaps with a greater range of horizontal movement for Ulysses and with the ability of Cyclopes to appear from both directions. Also, we want to add more words, not just nouns. We also would like to give the user more myths to choose from instead of just one.
+",,https://github.com/greenteas/latinissimus,,"Educational Technology, Viacom Prize ",Macaulay Honors College at The City College of New York,"",Macaulay Honors College at The City College of New York,Internship,OK,I want to know what kind of skills and knowledge I will be able to learn in a job.,Somewhat hard,"",greenteas,ahalyasanjiv
+Solaris,http://hacknyu2017.devpost.com/submissions/67706-solaris,"Inspiration
+
+The inspiration behind pursuing a drone/UAV project was the really cool applications behind drones/UAV. As we all know, the drone market has seen a boom in activity and now is transferring over to the industry and commercial sector with companies like Qualcomm working on 5G drone control and Ehang 184 just recently announcing to commercially sell drones capable of holding two persons. There is one thing however that is the major bottleneck from turning the already booming drone industry to the next gold rush, that is the life time of the drone while in flight. Companies can advertise saying that the possibilities for drones are endless, and thats all well and good; however, this ""endless"" possibilities and determined by one thing only which is how long can the drone stay in the air. That's why we were inspired to try to tackle the issue of the dying drone battery, which in return, would have the capabilities of transforming our energy environment in transportation and disrupting key industries.
+
+What it does
+
+Our drone has embedded a solar panel designed with a voltage regulation algorithm that allows for the simultaneous charging and powering of the drones battery and onboard computer.
+
+How I built it
+
+We built the drone from scratch and programmed the onboard flight computer. We then designed a 3D printed holder for the hardware components and the solar panel. 
+
+Challenges I ran into
+
+The major setback for us was getting the drone to recognize the inputs from our transmitter. What made it worse was that there was a loud beeping noise coming from the drone that indicated that our drone's electronic speed controllers weren't recognizing the transmitter. 
+
+Accomplishments that I'm proud of
+
+WE GOT THE MOTORS TO DO SOMETHING AND FLY!!! Also we were able to get the drones onboard flight computer solely powered by the solar panel.
+
+What I learned
+
+A lot about hardware. How to integrate the software we built with the drones hardware was a big thing that we learned. Also programming flight controller as well as transmitters was also something we learned.
+
+What's next for Solaris
+
+What would be really cool is to design an algorithm that auto detects paths were there is more light and will fly in that path whether it will save battery. Also designing a shell for the drone that is covered with solar panels which will increase the efficiency of the panel.
+",,https://github.com/PX4/rpi_toolchain,,"Make School Prize, Sustainability & Social Impact",Rutgers University,Arduino 101,Rutgers University,Internship,OK,What the employer expects.,Very hard,I truly believe its a matter of how many connections you have,salehayman25,khalid1022
+System for Transfer to Alternative Housing Package,http://hacknyu2017.devpost.com/submissions/67707-system-for-transfer-to-alternative-housing-package,"Inspiration
+
+In many universities, roommate swap is done through a bed-for-bed exchange portal. We found, in the case of New York University, that while the portal provides basic functionality, the interface is less than intuitive - information about available swaps is displayed in text, and residents must scroll through a long list of listings before finally reaching desired entry, regardless of their preferences. There is no way to filter the listings based on user criteria, nor is there any visualization of the listing itself. Housing is a basic need for college students, and a comfortable living environment greatly aids in academic and social success. We would like to ensure every student has the opportunity to attain that goal by reimagining the bed-for-bed swap portal.
+
+What it does
+
+A resident may want to use bed-for-bed swap for various reasons, including undesired location, excessive cost, and change in room type preferences. STAHP is a portal designed for a resident to filter out listing that does not fit these criteria. This removes unnecessary information from the user, enabling a more efficient swapping experience. 
+
+In the introduction screen of the bed-for-bed swap portal, user is greeted with a simple form that asks for their preference for target room, such as cost range, location, and room type. Based on this information, listings that match the criteria is displayed. User may then see the location of the room within the building to visualize its layout. Room layout is not part of the criteria because each room in a residence hall is unique and it is difficult to devise a clear-cut scheme for categorization. Finally, user submit a request to swap beds when they decided on a room.
+
+How I built it
+
+This is a simple web application built with HTML, CSS and javascript. Housing inventories are queried using NYU Housing API, available here: https://housing.nyu.edu/api. In the case of integration with a university housing portal, a server-side language such as PHP will be required.
+",,https://ben7293.github.io/STAHP_HackNYU2017/,,Sustainability & Social Impact,"New York University, Robert F. Kennedy Community High School","",New York University,Full-time,OK,The culture of the company,Not that hard,"",ben7293,erikbatista42
+Solar Panel Energy Production Improvements,http://hacknyu2017.devpost.com/submissions/67708-solar-panel-energy-production-improvements,"Inspiration
+
+We wanted to create a tool that allowed users to visualize how much energy they could produce through solar energy in order to support alternative energies.
+
+What it does
+
+Based on user input (Surrounding area, location, altitude, size and type of panel), the user will be able to efficiently calculate the amount of energy they produce.
+
+How we built it
+
+We initially mathematically modeled using single and multivariable calculus, then we were able to hardcoded a method for users to input simple specifications to allow for specific results.
+
+Challenges we ran into
+
+Developing the mathematical model and the final .exe as well as learning how to build a website through GitHub
+
+Accomplishments that we're proud of
+
+Finishing our initial project wit ease
+
+What we learned
+
+Teamwork is great!
+
+What's next for Solar Panel Energy Production Improvements
+
+Making a more complex design that could further specify different variables and more useful information to the user!
+",,https://jhochrun99.github.io/hackNYU/,https://s3.amazonaws.com/challengepost/zip_files/production/21598/zip_files/HACK.zip,Sustainability & Social Impact,New York University,"",Tandon - NYU,"Full-time,Internship",OK,"",Somewhat hard,"",Thassoun999,jh5367,kad600
+Heartistic,http://hacknyu2017.devpost.com/submissions/67710-heartistic,"Inspiration
+
+""More than 5 Million people in USA alone suffer from some kind of Heart Disease"". This fact inspired us to create something using current technology inorder to assist these people regaining a health Heart life. The number just gives a fact of people suffering, but there is also a fact that ""1 in 4 deaths is due to heart diseases in USA"" . The numbers are shocking but true.  
+
+What it does
+
+Having the technology of fitness trackers in your watch(iWatch), high connectivity now-a-days to dear ones and medical assistance, we tried to integrate all together to bring a new heart-disease detection tool, notifying to dear-ones in case of emergency automatically and creating a unique fitness schedule as well as tracker to make you live a healthy heart life. 
+
+How we built it
+
+We tried a new way of integrating Hybrid IONIC app(in javascript) with iWatch to control and receive fitness data from watch, monitor user's Heart lifestyle.
+
+Challenges we ran into
+
+Hybrid app that too with iWatch - in itself is a new thing to try. Integration with iWatch controlling it using plugins available(not so reliable yet) and then later on tweaking those plugins to suite our needs, a big task to accomplish.
+
+Accomplishments that we're proud of
+
+We achieved what was planned with all the difficulties of integration we ran into. 
+
+What we learned
+
+Health related facts - issues faced by current unhealthy population. iWatch capabilities, features available through API. HealthKit API of iWatch. Writing plugins for integration of javascript and IOS. 
+
+What's next for Heartistic
+
+Move ahead to add functionalities related to tracking more health information of the user. Play an important part in improving day-to-day health activities of user by suggesting as well as tracking activities through pulse rate, step count, workout and rest lifecycles.
+",,https://github.com/abhisheknigam/Heartistic.git,https://s3.amazonaws.com/challengepost/zip_files/production/21583/zip_files/Heartistic.zip,"Healthcare, Best Domain Name from Domain.com, Sustainability & Social Impact",University Of Florida,"",University Of Florida,Internship,OK,Project description of the project I would be working on.,Somewhat hard,"",ApurvAmrutkar,abhisheknigam,KaranAcharekar,kbbaldha
+PAS-Health,http://hacknyu2017.devpost.com/submissions/67714-pas-health,"python-getting-started
+
+Barebone WebApp
+
+Running Locally
+
+Make sure you have Python installed properly
+$ git clone https://github.com/Siimon13/PAS-Health.git
+$ cd PAS-Health
+
+$ pip install -r requirements.txt
+
+$ python manage.py migrate
+$ python manage.py collectstatic
+
+$ python manage.py runserver
+
+Your app should now be running on localhost:8000.
+
+Documentation
+
+The app is based in pas
+The static folder is in gettingstarted(For imgs/js/css)
+
+The templates have examples of loading static and forms
+
+All code is ran through view.py(controller)
+
+Making a new form requires you to add a valid form to form.py Read More
+
+If you want to use a database, use model.py Read More
+
+Database code is added, Database can take sql injections by using raw() Read More
+
+Using Bootstrap for CSS
+",,https://github.com/Siimon13/PAS-Health,,Sustainability & Social Impact,New York University,"",New York University,"Full-time,Internship",Very well,Culture Fit,Somewhat hard,"",Siimon13,pakp122134
+TeamUp !,http://hacknyu2017.devpost.com/submissions/67716-teamup,"Inspiration
+
+Many students arrive at a University completely bewildered by their surroundings and with a certain hesitation to opening up. It becomes very difficult for them to network with the right people, who are just like them, for the purpose of uplifting their knowledge and moving forward in their careers. Such reserved people deserved a platform that pushed their ideas into existence. And this is how TeamUp ! was born
+
+What it does?
+
+It assists people with like minded ideas carry out their endeavors in a constructive and collaborative approach
+
+How we built it?
+
+We have built the entire site using the Django framework and we will host the same using AWS
+
+Challenges we ran into?
+
+Loads of framework working challenges which we solved by learning new stuff along the way 
+
+Accomplishments that we're proud of?
+
+Firstly, the purpose that we have made it for is extremely endearing for us. Secondly, we made from scratch in a small span of 2 days. Thirdly, the kind of good spirit and vigor we had while making the application surely marks our passion towards the idea and hence we think this is really going to hit big and help many students out there 
+
+What we learned?
+
+We learned mainly about the Django Architecture from scratch that includes a multi-platform amalgamation of Python, HTML, Css, Javascript
+
+What's next for TeamUp !
+
+For starters, we would like to take our idea to help out students at NYU and from the inputs and suggestions we get, we roll this out to as many educational institutions as possible
+",,https://github.com/harishpuvvada/NYU_TeamUp,,Educational Technology,NYU Tandon School of Engineering,"",New York University,Internship,OK,"- technologies used in actual projects and proficiency level in the same
+- pay
+- recruitment procedure",Not that hard,"",ChaitanyaPattewar,harish0625,kr-abhishek,AkshayNarvekar
+Yum Yum Bot,http://hacknyu2017.devpost.com/submissions/67717-yum-yum-bot,"Inspiration
+
+We have witnessed the difficulty of ordering food for our lunch which requires us to install an application or browse through a plethora of websites which is time-consuming and inconvenient. Recently, people spend so much time on messaging app, this bot will enable them to order food through message as if you are talking to one of your friend.
+
+What it does
+
+Through easy interactive messages, this bot can take order of the delicious food from the list of lunch menus and deliver the food  at your doorstep.
+
+How we built it
+
+We used api.ai for the natural language processing, facebook messanger bot for the front end, mongodb for the database, and nodejs for the backend of the webserver.
+
+Challenges we ran into
+
+Design of stages for the successful and smooth implementation of the bot and the different design aspect of the bot such as the attractive and interactive option. It required long hour of training the api  to bring the yum yum down to human level communication.
+
+Accomplishments that we're proud of
+
+We were successfully able to build the yum yum within two days that is so smooth in the interaction that most of the company lack. This alternative and better method to order food quickly and easily which is currently at nascent stage will gain its momentum and accelerate. We are proud to be the group who have created this.
+
+What we learned
+
+We learned quickly to develop a functional human interactive chat bot with a time of 48 hours.  
+
+What's next for Yum Yum Bot
+
+Integration of delivery system to show real time updates on the status of the order. 
+",,https://github.com/iganbold/hacknyu-2017/,,Assistive Technology,"NYU, University of North Carolina at Charlotte","",New York University,Full-time,OK,"",Somewhat hard,"",shashankgargnyu,ItgelGanbold,addy1110,parteekkhushdil,aks629
+EmoJo,http://hacknyu2017.devpost.com/submissions/67719-emojo,"Inspiration
+
+We wanted to give users a way track their own mental health through an interactive and responsive journal.
+
+What it does
+
+Allows user to make a journal entry, and receive an accurate analysis of your emotions! The emotions are categorized as Fear, Anger, Disgust, Joy, and Sadness. Each emotion level is stored and tracked in a graphical interface, allowing for easy progression monitoring. The user can display their progress or analysis to their psychologists. 
+
+How I built it
+
+We built this project using the IBM-Watson tone analyzer API, Google charts, and a MySql database.
+
+Challenges I ran into
+
+We had never worked with the IBM-Watson tone analyzer API before. In addition, we had trouble graphing the emotional values that were retrieved through the analysis. 
+
+Accomplishments that I'm proud of
+
+Learning how to properly utilize a MySql database.
+
+What I learned
+
+IBM Rocks. Database Management. Teamwork. Time value. WE LOVE HACKATHONS.
+
+What's next for EmoJo
+
+Improve UI/UX. Create a special client for Doctors, to manage their patients' progress real-time.
+Release to the public.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21586/zip_files/startbootstrap-sb-admin-2-gh-pages_%281%29.zip,"Healthcare, Verizon Prize, #HackHarassment, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize",NYU Tandon School of engineering,"",NYU Tandon School of engineering,Internship,Very well,"",Very hard,"",JakubNowak,JasleenS,msk610,cl3250
+Dondero,http://hacknyu2017.devpost.com/submissions/67722-dondero,"Inspiration
+
+We were inspired by our systems programming professor Bob Dondero's dedication to providing his students with the best possible education. In particular, Dondero answers every single student question on Piazza, the course discussion board, with an average response time of 15 minutes. We were inspired to allow other students to experience learning on a similarly personalized level by providing a more effective interface for teachers to interact with their students.
+
+What it does
+
+Dondero provides a real-time discussion platform for teachers to answer student questions on a particular video, perhaps a lecture. Students can ask questions at any point during the video, with the instructors having the ability to pause the video at any point to address particularly salient questions. Both the instructors and the students are free to answer questions, and the instructors also have the ability to archive questions that have been sufficiently resolved. A general chatroom is also provided to facilitate general discussion that is not directly tied to specific questions.
+
+One of the key ideas behind Dondero is the ability for students to maintain anonymity relative to each other, allowing the more shy and reserved students to engage more effectively. At the same time, students log in through a database using their student emails, allowing instructors to hold potentially disruptive students accountable for their actions.
+
+How we built it
+
+For the login system, we utilized a combination of PHP and MySQL to retrieve user information, store it using Amazon's Relational Database Service (RDS), and authenticate users. An HTML page was constructed for each of the two user types: Teacher (for instructors, TAs, professors, etc.) and Student. The majority of website features, including the ability for teachers to embed videos via Youtube link, mark questions as answered, and pose new questions, were implemented through Javascript. Features that required real time monitoring, such as synchronizing student and teacher embedded videos and maintaining synchronized answered/unanswered question columns, also required constant communication with a Python server. Webpage elements were styled with CSS to enhance aesthetics, and the websites themselves were hosted by Amazon's Elastic Compute Cloud (EC2).
+
+Challenges we ran into
+
+One of the primary challenges we ran into was the inability for two separate connections to access the same port. Because of this, we needed to use two ports: one to query our login database and one to execute the Python commands. Luckily, none of the pages required the use of both ports at once, so we were able to allocate separate ports for login authentication and Python commands. This caused other complications, such as difficulty in storing variable values between pages hosted by different servers, though these were ultimately resolved as well.
+
+Accomplishments that we're proud of
+
+We're extremely proud of the completeness and coherency of the project, especially considering the state of our first hack-a-thon project. It was the first time for many of our team members using some of these languages and technologies, and we each feel that we have improved tremendously both in terms of code quality and techniques.
+
+What we learned
+
+Our understanding of the interplay between various languages and technologies in a single project has improved greatly. Our comfort with each of the languages and technologies used has increased significantly as well, particularly in Javascript, CSS, PHP, and AWS.
+
+What's next for Dondero
+
+In terms of basic improvements, a number of secondary features are missing, including basic security precautions and animated graphic design within the website. On a larger scale, there is potential for Dondero to utilize the same principles to expand into other areas, such as a Dondero-equivalent for conference calls. Of course, the first thing on our plates is to let Professor Bob Dondero know that he has a program named after him now!
+",,http://ec2-54-202-89-146.us-west-2.compute.amazonaws.com/static/login.php,https://s3.amazonaws.com/challengepost/zip_files/production/21588/zip_files/Dondero_Final.zip,"Educational Technology, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS",Princeton University,"",Princeton University,Internship,OK,More specifics on day-to-day work and company culture.,Somewhat hard,"",jjow,DChae,williamjiao
+TeamFitness,http://hacknyu2017.devpost.com/submissions/67725-teamfitness,"Inspiration
+
+It is difficult to be discipline yourself to work out regularly.
+
+What it does
+
+TBDDDD
+
+How I built it
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for TeamFitness
+",,,,"",New York University,"","","","","","","",patsukhum99
+Peri,http://hacknyu2017.devpost.com/submissions/67730-peri,"I was deeply inspired by Peri to make a site called Peri.
+",,,,"",Rutgers University,"",Rutgers University,"","","","",Please notice me,marth2000
+PAS Health,http://hacknyu2017.devpost.com/submissions/67735-pas-health,"Inspiration
+
+Losing weight is really hard and there's a lot of fad diets with no science. If only there was something that collects data on diets and could recommend a working one.
+
+What it does
+
+Uses a neural net to learn from entries and daily users to recommend diets that work.
+
+How we built it
+
+Web-app built with Django and AI, written in python
+
+Challenges we ran into
+
+Normalizing the data and getting the thereshold correct
+
+Accomplishments that we're proud of
+
+Working AI
+
+What we learned
+
+Ajax calls, AI fundamentals
+
+What's next for PAS Health
+
+Improve AI and talk with genetics lab
+",,https://github.com/Siimon13/PAS-Health,,Sustainability & Social Impact,New York University,"","","","","","","",pakp122134,Siimon13
+walksafe,http://hacknyu2017.devpost.com/submissions/67739-walksafe,"Inspiration
+
+We really wanted to explore the data released by the NYC Government and develop a solution that would benefit all New Yorkers. We were looking for a project that would involve utilizing the skills that we developed during our course of graduate study and that could also help everyday New Yorkers.
+
+Just as one would expect from one of the largest cities in the world, New York has its share of crime. We wanted to explore how can we learn from what has happened in the past and help incorporate this insight in people's everyday life.
+
+What it does
+
+Given a source and a destination, WalkSafe is able to provide alternative routes and provide an overview of historic criminal activity along that path. When providing this overview we have taken into account factors which showed high variance in historic data like time of day and month. We create a weighed composite rating of the path and show that to the user. We also show a heat-map of past criminal activities in the vicinity
+
+How we built it
+
+1] Data Exploration:
+Once we had a general notion of where we were heading, we started sniffing through public data-sets and trying to find something that we could use to create a practical tool. We looked information available and brainstormed ideas of how we could derive inferences from data and show it to the user. We narrowed down our option and picked this as something we could accomplish in this Hackathon's time frame
+
+2] Test Local Proof of Concept
+We extracted the data and isolated attributes that we were interested in. We wrote small scripts to re-assure ourselves of the feasibility of the project. After success, we started developing a server and client and came up with our infra-solution.
+
+3] Setup Infrastructure and develop a relatively mature solution
+We setup our instances on AWS and used AWS's Elastic-search as our data-store. We used it because of its fast retrival time and ability to do location based quarries. We started developing our client on Android.
+
+4] Perform data cleaning to optimize our model
+Simultaneously, we were also looking at data and removing unimportant fields. We restructured the data to make it easier for querying and aggregation. We looked at how different field values varied over time and which fields showed high variances. 
+
+--- Sleep ---
+
+5] Connect client and server and polishing
+We finally bridged the client-server gap and created an integrated systems. Once the overall communication flow was figured out, we even managed to create a client on another platform (iOS)
+
+Challenges we ran into
+
+-> It was difficult to model the data and we had to go through several iterations before finalizing one.
+-> Systems that were supposed to work out-of-box like libraries required considerable tinkering.
+
+Accomplishments that we're proud of
+
+-> We were able to achieve a MVP by the deadline and were able to interact with it.
+
+What we learned
+
+-> Data modeling, working with Mapping libraries on different platforms.
+
+What's next for walksafe
+
+-> More features. 
+",,https://github.com/kud202/hacknyu,,Sustainability & Social Impact,New York University,"",New York University,"Full-time,Internship",OK,"",Somewhat hard,"",kud202,ishanhanda,ankitshah1310
+commUnity,http://hacknyu2017.devpost.com/submissions/67740-community,"Inspiration
+
+""Last year, I was in Dharavi, the largest slum in India. Being an informal community, residents cannot rely on the government to provide for them so any initiatives in the community need to be self led. For instance, there was a well in this community used to be a source of life for locals, providing for irrigation and personal use. However, since it became polluted, it can no longer be used and it has remained this way for years. With our commUnity app, a proactive individual can lead the way in getting residents to collaborate in restoring the well to its former glory. The is just one type of use case, with commUnity being a great platform for organizing social community events and philanthropic initiatives."" 
+
+
+William
+
+
+What it does
+
+The commUnity app allows individuals to view, collaborate and create projects within their community. Projects are geographically sorted, allowing residents to find initiatives around them that they are passionate about, join the chat and organize to meet or contribute.
+
+How we built it
+
+The team utilized Java, Android Studio, Firebase, Pyrebase, Flask, Python, Heroku, Google Maps API, Google Single Signon, Bootstrap, CSS, HTML, Javascript, and Geopy to create a fully functioning android and web app. 
+
+Challenges we ran into
+
+Accurate location handling; pushing to heroku.
+
+Accomplishments that we're proud of
+
+Producing a fully comprehensive Android and Web app in one weekend which has potential for significant social impact.
+
+What we learned
+
+Android and web development; team-work and project management under short deadlines; idea generation and mastering hackathons.
+
+What's next for commUnity
+
+Releasing to the Google Play and iOS app stores.
+",https://youtu.be/Hppn68kjKps,http://comm-unity.herokuapp.com/,https://s3.amazonaws.com/challengepost/zip_files/production/21594/zip_files/HackNYU.zip,"Best Domain Name from Domain.com, Make School Prize, Sustainability & Social Impact","NYU Tandon, NYU Abu Dhabi","",New York University,"Full-time,Internship",OK,"Requirements of the position, what is the project, and actual qualification requirements",Somewhat hard,"",ssk545,yatin1221,blt264,williamyoung,PallakAnand
+InstaDoc,http://hacknyu2017.devpost.com/submissions/67743-instadoc,"Inspiration
+
+Many of us had these experiences before - when one of your friend had one too many drink at a party, or when your roommate started choking from their favorite food - most of time, people's first reaction is to panic, follow by helplessness of not knowing what to do. The inspiration of InstaDoc stems from the goal of teaching common medical practices to everyone. By having exact steps and immediate actions needed for each emergency situation, InstaDoc allows its users to react quickly in time of emergency and stall more time until professional medical assistants arrive. 
+
+What it does
+
+One of InstaDoc's main features is to provide at-the-moment assistance to various common health emergencies such as choking, intoxication, CPR and seizure. It is designed to give the user a quick response to what actions are needed to be taken in case of experiencing or witnessing these emergencies. Another feature of InstaDoc is its ability to share user's current location to the person of contact. Simply press ""Send Current Location"" button on the application in case of emergency (feeling too drunk at a party, or lost the way back home) , and the user's current location, in terms of longitude and latitude, will be sent to the person of contact via text message. InstaDoc is mainly targeted for user of young age, such as college students, but it is also a great choice among older generations with its location sharing feature and emergency contacts.
+
+How we built it
+
+InstaDoc was built entirely with Android Studio and Java. InstaDoc's logo was created in Autodesk SketchBook. Multiple medically creditable websites were consulted for accurate and safe medical assistance for anyone to practice. 
+
+Challenges we ran into
+
+As two, first time app developers and Hackathon participants, my partner Allen and I ran into various challenges during the past two days.  Although currently taking Java class in school, using Java and Android Studio to develop an application with only past knowledge on C++ was rough. But after referring to the Android official website for starter helps, and reading about various features (such as layouts and activities etc.) of the Android Studio, we quickly got comfortable with the software and the coding. We had a later start than rest of the participants, considering we changed the features of InstaDoc multiple times before we started, and that was another big challenge - time constrains. We had many good ideas and cool features to include for InstaDoc, but coding non-stop for two days drained all the energy from my team. At the end, we decided to focus mainly on the essence of the app, the treatment for fours different common emergencies and location sharing feature, and make sure the entire application is functional. However, InstaDoc will not just stop here! We have a lot more planned for InstaDoc, as you can read below under ""What's Next for InstaDoc"" and we are certain, with time, they will all be achieved.
+
+Accomplishments that we're proud of
+
+We completed InstaDoc from scratch over the course of two days, and the application works (even though it is just a prototype with basic functionalities)! As first time application developers, this is the biggest accomplishment for us in this Hackathon. Also, making through the Hackathon without giving up as first time participant is one of the biggest accomplishments as well. In general, Allen and I had our minds set on learning through participating and trying our bests, and we are both very happy with the results. 
+
+What we learned
+
+We learned how to utilize softwares such as Andriod Studio and Java to make our very first Android application including implementing the GPS feature in our application, making various layouts and activities so the application can have smooth transitions, and access user's SMS while using the application. More so, my partner and I learned how to time manage better by assigning tasks evenly among the two of us, and communicate on what we thought was the best for the application. This Hackathon gave both of us a taste of what the future of Computer Engineers might be like, and we are both ready for the challenege. 
+
+What's next for InstaDoc
+
+InstaDoc has a lot more room to progress and improve. One feature my partner and I wanted to include in the application, but was unable to due to lack of time, was to show nearby hospitals and emergency centers near the user with his/her current location. Since the application already retrieves the user's location with longitude and latitude, utilizing this information to find nearby hospitals will be the next step in development for InstaDoc. The ""Profile"" feature of InstaDoc still needs to be implemented. Having the user to enter his/her personal health informations can increase the accuracy in medical judgements and effectiveness in receiving treatment. Also, there are many more common emergencies that InstaDoc can include such as food allergies, bleedings, burn, electric shock, poisoning, and stroke etc. We have planned for InstaDoc to have audio support which increases accessibility massively. Having the application read out instructions for the user during time of emergency not only allows the user to free both hands, but also allows the user to direct full attention to the patient. 
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21596/zip_files/InstaDoc_%281%29.zip,"Healthcare, Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Viacom Prize , Make School Prize",NYU Tandon School of Engineering,"",NYU Tandon School of Engineering,"Full-time,Internship",OK,"",Somewhat hard,"",ManliGu,allenlao
+Hu,http://hacknyu2017.devpost.com/submissions/67744-hu,"Inspiration
+
+In dentistry, trying to choose the filling color for teeth is still mainly performed in an old-fashioned manner of trial and error in comparing pre-made shade models to the patient's teeth. Although there exist machinery that can determine the shades, they are insanely expensive and thus inaccessible to most dentists. Our idea is to make a similar model on a mobile scale that virtually anyone could use at a low-cost price. 
+
+What it does
+
+Currently, the android application can take a picture of a patient's teeth using a conical attachment that minimizes light distortions. Manually, the user would take the image and crop a circular shape that runs through a visual basic script that averages the HSV color of each pixel of the tooth. It then uses a pre-calculated database of teeth shadings to determine the closest shading that the filling could use. 
+
+How I built it
+
+We used Android Studio to create the android application and Visual Studio to create the color calculation script. We also used Python to automatically perform image processing to determine the teeth's edges and surfaces. There were difficulties in automatically determining closed surfaces to average the pixel colors so the user must manually crop a circular area for the program to process. 
+
+Challenges I ran into
+
+We had difficulties in running Python code on the Android app using Kivy. We also had problems in writing algorithms to run automatic detection in the Python code. We had a 3D model for the conical mold, but ran into many issues with the 3D printers so we had to create a makeshift paper model. 
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Hu
+
+Ideally, Hu would be able to take an image and using automatic image processing and some minor machine learning, be able to determine individual teeth and match the colors to shadings without any further user interaction. 
+We would also want to make a plastic 3D printed mold for the conical attachment because it is significantly more stable than the makeshift paper version.
+",,https://github.com/JeffreyWang98/Hu,,Healthcare,"University of Maryland - College Park, New York University","",University of Maryland - College Park,"Full-time,Internship",Very well,"Usually the specific field of computer science of the project I would work on. Such as VR, Android, web development, algorithm research, cybersecurity or other fields.",Not that hard,"",JeffreyWang98,Karyandrew,leadhead892002,ma373589
+Alzheimer's Companion,http://hacknyu2017.devpost.com/submissions/67745-alzheimer-s-companion,"Inspiration
+
+5.3 million people in the US are living with Alzheimer's, 1 out of 9 people over 65 years of age have Alzheimer's, and 1 out of 3 seniors die with Alzheimer's or a form of Dementia.  We were shocked by these statistics, and wanted to do something to help people with Alzheimer's and their families.
+After thinking about the best way to help people with Alzheimer's, we saw potential in using the Amazon Alexa Dot for becoming an assistive device that can help people remember things.  Easy and convenient to use because of its voice command feature, the Amazon Dot was integrated into the Companion system to help people with memory problems (Alzheimer's and Dementia). 
+
+What it does
+
+The Alzheimer's Companion system uses the Amazon Alexa Dot to get information from a database and remind people of their personal information and scheduled activities through intuitive voice commands. The Alzheimer's patient can recall the following through Alexa by saying ""Alexa, ask my brain..."": scheduled events, family members and their descriptions, personal information such as name, memories, and set/get the locations of different objects.
+Through a website (which a family member of the patient will have access to), you can set/edit all of these categories. The family member can also monitor how often a request is made through Alexa and see the history of requests, allowing them to monitor in real time the mental state of the patient. 
+The Companion system also connects to the Pebble watch worn by the patient, displaying the most recent Alexa request and answer, making it easier for the patient to understand where an object is located, what a memory is, etc.  The pebble watch also constantly sends its location to the website. On the website this long-lat data is computed and displayed on a google map. Using the Google Maps Distance Matrix API, the distance is calculated and if it is larger than 5 miles a text is sent to the caretaker. This allows the caretaker to ensure their loved ones are safe.
+
+How we built it
+
+We used Amazon Web Services Lamda functions to communicate with Alexa and Alexa schema's to be able to store and access information. This information was sent and retrieved from our NoSQL database(DynamoDB) which is hosted by Amazon Web Service. The Pebble provided data on geolocation through its connection with the internet and its sensors. When the location of the user becomes too far from home, a warning message will be sent to the caretaker on Twilio (coded in python and running on a local server).  This information was sent to the database. The Pebble also displays the last requested answer from Alexa with a HTTP GET request.
+The website uses bootstrap and lots of manipulating data arrays to display/add to the data. The database communicates with Alexa/web portal by using php.
+
+Challenges we ran into
+
+So much data! We have never taken up a project with this much data before. We had to create functions to display/add to every data set (there are 5 main data sets, then a couple minor ones such as location data). We had to manipulate all this data in the multiple data pages on the website.
+We also never programmed in C so we have to find a way to program Pebble with C. C is so confusing! This took some improvising and a lot of frustration to understand what is going on in Pebble world.
+We also never used the Google Maps API, so that took a while as well.
+
+Accomplishments that we're proud of
+
+We were able to create a fully working skill for Alexa and locally host the website.  We managed to use Google Maps to display the data sent from the Pebble, as well as calculate distance and send a SMS via Twilio. All the data is also really easy to view and edit which we are very proud of. The website is very clean looking, and we are proud of how well everything syncs together.
+
+What we learned
+
+We learned to use C and connect the Pebble with a database. We also learned how to use the Google Maps api, how to create inputs from entered data on the website, how to quickly display a lot of data is a somewhat efficient way, and how to integrate everything in a server.
+
+Future improvements for Alzheimer's Companion
+
+Test it out with Alzheimer's patients and get feedback. Then improve the application and help even more people!  The website is currently local with only a default login so it can be hosted and a login database can be created.  There can be a on/off slider for location services so if the patient is on a trip, the alarm system can be deactivated.
+",https://www.youtube.com/watch?v=mNf_-Fti0gw,https://github.com/xavierlu/AlzheimersCompanion,https://s3.amazonaws.com/challengepost/zip_files/production/21597/zip_files/hackNYU.zip,"Assistive Technology, Amazon Web Services - Best Use of AWS",West Windsor-Plainsboro High School South,"Pebble Time,Amazon Echo",High School,Internship,Not very well,How should high school student lands an internship at a startup,Somewhat hard,We are high school students seeking summer internships at tech startup,jimmyshi360,lizpet,xavierlu
+Hone,http://hacknyu2017.devpost.com/submissions/67748-hone,"Inspiration
+
+We wanted to provide a powerful tool for budding scholars and ravenous learners where they may gather customized, tailored information based on their learning style: visual, auditory, kinetic.
+
+What it does
+
+Hone collects user inputted information from a quick, ten-question survey to determine the user's most preferred learning style. The server returns a bar graph that details the user's learning type visually. Afterwards, all search inputs would be personalized specifically for the user, based on a search engine algorithm. The algorithm will sift through the most relevant search results of the user inputted query; the resulting websites will be sorted into an order based on image, video, and word count. A well organized user interface allows the user to pick and choose the sites that they wish to use.
+
+How we built it
+
+We utilized Python, HTML5, CSS3, Google Search API, and the flask package to program this working prototype. The flask package was paramount in connecting the Python logic with visual HTML and CSS.
+
+Challenges we ran into
+
+Along the process of developing our hack, we encountered several hurdles ranging from implementation of python algorithms into the HTML and CSS based website. Also, we had to learn the most efficient uses of the flask package to help link the different languages.
+
+Accomplishments that we're proud of
+
+Our biggest achievement, by far, was exploring the implementations of Python based sorting algorithms used in refining the webpages that are displayed to the user.
+
+What we learned
+
+When we decided to pursue this project, we knew we had to delve deeper in to the Python and HTML uses. We discovered the wide range of utility of Jinja2 and the flask package, and the necessity of their integration in web development.
+
+What's next for Hone
+
+We are looking to refine the GUI of Hone to provide an increasingly user-friendly display. Hone could use a few improvements in user accessibility and also, perhaps, tweaks to the algorithm for more accurate personalisation for the user.
+",,https://github.com/plgouw/HackNYU-2017,,Educational Technology,"McNair Academic High School, NYU CAS, High Technology High School, University of Toronto","",NYU CAS,Internship,Very well,"",Not that hard,"",Narwhal,plgouw,John42506176Linux
+Safe Vitals,http://hacknyu2017.devpost.com/submissions/67760-safe-vitals,"Inspiration
+
+We tried to solve two major issues in the healthcare industry:
+
+
+Estimated Emergency Waiting Times: After a 911 call, paramedics in an ambulance make calls to the nearest hospitals in order to inquire what the estimated wait times are. We used an API by Density (http://density.io) and created a web-app that automates the wait times by automatically scanning the number of people waiting at each hospital.
+Communication: Have you ever had to change doctors? Maybe because you moved to another city, or just wanted to get a second opinion? It can be a struggle to shift all your medical records (securely); Safe Vitals tries to solve that problem by consolidating all your medical records in one place (which you can access anytime) and share with any doctors with a single click. It offers means of safe communication and messaging with your healthcare providers (an example for this would be secure messaging with your psychiatrist).
+
+
+How we built it
+
+We used the density API and simulated hospitals, which scan the number of people and estimates the wait time depending on the past-average times. We used Sketch for the WebApp UI and imported Android/iOS assets from there that point onwards; we went ahead and continued with our developed in Android Studio (in Java). The back-end uses NodeJs to communicate with the WebApp; it also live-updates the wait-times at each hospital (by making HTTP GET calls to the Density API and our simulated hospital environments).
+As for the sharing medical records and communication we used blowfish cipher for encryption (in existence since 1993 and not cracked till date - it is what is considered military grade encryption by various companies). The user authentication is handled on Firebase (by Google) and we store user info (not medical records) on our AWS server in a MongoDB database.
+
+Challenges we ran into
+
+We had some initial issues trying to get the NodeJs part of our server to interact with the API and GET requests. We were at first using the NPM library 'request' but could not figure out how to include an authentication token in the header; we solved this by writing our own node script which uses HTTP GET to interact with the API. 
+
+Accomplishments that we're proud of
+
+We've created a product which is easily useable by a broad audience, regardless of tech-savviness, and is useful for individuals with large amounts of medical data that needs to be consistently maintained, such as someone with a chronic condition, but also for individuals who have relatively little data but still desire a unified and secure location for it.
+The wait-time calculator for urgent care solves an issue that is problematic for both health providers and patients, especially in big cities.  
+
+What's next for Safe Vitals
+
+We are planning to setup online consultations (and healthcare) services for appropriate healthcare services
+",,https://github.com/AdityaSingh/safeVitals,,"Healthcare, Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize",New York University,"",New York University,"Full-time,Internship,Other","","","","",AdityaSingh
+Pill Central,http://hacknyu2017.devpost.com/submissions/67762-pill-central,"Inspiration
+
+My grandmother constantly used to take the wrong pills or forgets to take her pills. Her health was constantly deteriorating as well as her memory. This is a problem that the elderly and most busy people run across. We wanted to solve the problem by having a system that assists the user's memory and prevents the mistakes from happening.
+
+What it does
+
+Our product is a pill box that seperates compartments with each comprement denoted by and LED. Each LED corresponds to a pill in a database that is set by the user. Once the time comes to take the pill the corresponding LED will light up so the user knows which pill the have to take. Accompanying the hardware and database is an IOS that allows the user to set up new pill to be taken, and see what pills the user has scheduled to take that day. To seperate each user, there is a
+
+How I built it
+
+We built it using python on a raspberry pi, as the hardware, that notifies the user visually, with LEDs, around their pills. We created an iOS application that allows the user to set and view their schedule. Both of these are connected to a database on AWS that allows the application and the pill container to work independently but allow them to share the same information.
+
+Challenges I ran into
+
+Challenges we ran into were Day object's were set differently for different applications. We also ran into internet problems.
+
+Accomplishments that I'm proud of
+
+We are proud of the fact that we made something so easy to use that utilizes hardware and software. We are also proud that the entire system works and can be expanded in multiple different directions in the future.
+
+What I learned
+
+We learned how to use python to connect to a database to receive and parse information that then presents the information to the user. We also learned multiple new techniques in Swift. Finally we learned how to implement a database more effectively.
+
+What's next for Pill Central
+
+We will improve upon it to make a full application as well as minimize the hardware to a a micro controller centered pill box hardware.
+",,https://github.com/emladinov/pill_central,,"Healthcare, Amazon Web Services - Best Use of AWS",Manhattan College,"",Manhattan College,Full-time,OK,The social environment for example extra activities linked to the company.,Somewhat hard,"",seantpotter,EvanMladinov,nwilk01,gregoryslonim
+for-hue,http://hacknyu2017.devpost.com/submissions/67765-for-hue,"For Hue
+
+Adjust the colors of a pdf file for various types of colorblindness.
+
+Users select their type of colorblindness (one of the major three), upload a pdf file, and are given a daltonized (color adjusted) pdf file to download.
+
+See the demo on heroku. (PLEASE NOTE: Currently pdf files larger than about three pages might be slow. Try testing the app with a pdf that is three pages or less.)
+
+Development Environment
+
+After cloning this package, run the following:
+# install dependencies
+> npm install
+
+# start the dev server
+> npm start
+
+The app will automatically open a new tab in Google Chrome at http://localhost:3000/ where the app is running. If you did not do npm run setup, the server will automatically check if the proper database and table exist and, if not, create them.
+
+Production Build
+
+To build this app into a static, minified package, running npm run build will create such a package under the /build/ directory and run the production server at http://localhost:9000/.
+
+
+
+Made with the help of ejecting a create-react-app.
+",,https://for-hue.herokuapp.com/,,Assistive Technology,NYU,"",NYU,Internship,OK,"",Somewhat hard,"",rivyx,ag8731,poojapatel1211
+Indoor Weather Station,http://hacknyu2017.devpost.com/submissions/67766-indoor-weather-station,"Inspiration
+
+The temperature of the lecture halls and labs in NYUAD is controlled from a central station on campus and they are often very cold or warm. We built the network of weather stations to give students the opportunity to know the temperature of the classrooms they would be visiting to aid them to decide the kind of clothing to wear for class. In addition to improving people's thermal comfort, large-scale sensor deployment will enable better collection of information about the HVAC system, which will help prevent waste of electricity.
+
+What it does
+
+The current prototype reads the temperature and humidity of the classrooms with a temperature and humidity sensor, connected to the affordable Raspberry Zero board and sends the values in degrees Celcius to a ploty account. This ploty graph is embedded into the website (https://princesannor.github.io/Indoor-weather-station/). In the future, we can plot temperatures from a massively spread network onto the layout of the campus. 
+
+How I built it
+
+I connected a Humidity and Temperature Sensor Breakout (https://www.sparkfun.com/products/retired/12064) to a raspberry pi via I^2C communication. I then read the values of the sensor and sent them to a ploty account. I then embedded a div of the graph file into the website(https://princesannor.github.io/Indoor-weather-station/). 
+
+Challenges I ran into
+
+Finding a raspberry pi library for the temperature and humidity sensor.
+Sending the data real-time to the ploty account
+Setting up the raspberry pi for I^2c connnection
+
+Accomplishments that I'm proud of
+
+This was the first time I used a raspberry pi and I'm proud I was able to sync the I^2 communication of the breakout board after about eight failed attempts.
+My python and Linux command line knowledge is very rusty and I'm glad I was able to understand the library for the breakout board and use it.
+I built a simple working website to display the temperature of the lab to my friends and the NYUAD community at wide. Nothing makes me prouder! 
+
+What I learned
+
+I learned how to edit configuration files in Linux to change various system capabilities like I^2 communication
+I learned how to build websites, style them with css and animate them with simple js.
+
+What's next for Indoor Weather Station
+
+The classrooms in NYUAD have AV systems. We intend to interface the Indoor Weather Station with the computer system in each classroom and take advantage of the functioning systems to run the Weather Station.
+
+NYU and Community Impact
+
+Students and faculty with different temperature preferences use the classrooms and this makes it difficult to set a standard temperature that would suit everyone. With the Indoor Weather Station, students and faculty with different temperature preferences can prepare themselves with real-time temperature data of the classrooms they would be visiting. They can put on a jacket, or wear something light if it's supposed to be warm...
+
+Sustainability & Social Impact: Effective Use of Limited Resources
+
+This project aims to collect data that encourage sustainable use of resources. The plafortm is highly scalable because it uses an inexpensive temperature/humidity sensor breakout(https://www.sparkfun.com/products/retired/12064) connected to existing AV systems in the classrooms and labs. 
+
+Code available on:
+
+https://github.com/PrinceSAnnor/Indoor-weather-station
+",,https://princesannor.github.io/Indoor-weather-station/,,Sustainability & Social Impact,NYU Abu Dhabi,"",NYU Abu Dhabi,Internship,"","","","",PrinceSAnnor,mslos
+TrainTime,http://hacknyu2017.devpost.com/submissions/67767-traintime,"Inspiration
+
+Millions of New Yorkers experience waits for MTA trains on a daily basis. The vast majority of riders have no way to know if the train is coming, how long they will have to wait, or how badly the system is running at the particular moment. A few lines, the 1 through 7 lines, have hardware installed that allows accurate tracking of trains on the line, allowing estimates for train arrivals for stations only on those lines. The remaining trains have no such hardware and will, most likely, not anytime soon. In the age of data, there is a simple solution: crowd-sourcing. Our project, TrainTime, hopes to help riders on all lines track their trains and have a reliable estimate of the state of the system around them.
+
+What it does
+
+TrainTime uses schedules provided by the MTA and input from users already tracking incoming trains to create a reliable estimate of train locations. Since this does not rely on any costly hardware additions on the MTA's part and simply asks for confirmations from its present users on estimates, this can be applied to any train line and even expanded beyond just the NYC MTA subway system.
+
+How I built it
+
+This project was built with Python and using AWS to host the server, Flask to run the server, SQL to store schedules pulled from the MTA and user confirmations on current estimates, and HTML/CSS to optimize for desktop and mobile access to the page. 
+
+Challenges I ran into
+
+Coordinating between multiple people was a challenge, especially when working on the same files because of merge conflicts. Furthermore, working together efficiently was more difficult due to the long length of the hackathon and each person's level of endurance. Most of all, however, errors and random technological malfunctions held us back.
+
+Accomplishments that I'm proud of
+
+We were able to create a working system bringing together multiple technologies and produce a good looking result. The quality of the end product, in terms of form and function, was beyond what we expected.
+
+What I learned
+
+We learned about AWS EC2 and RDS instances and using them with Flask. There were plenty of problems, such as having to link manually to different pip packages and files.
+
+What's next for TrainTime
+
+Next, we hope to fix remaining errors and improve usability and feel. Moreover, we would like to implement machine learning or other technologies to adjust the MTA schedules based on real world data in order to help provide more accurate estimates. Furthermore, we would like to implement automated location tracking based and app based understanding to allow more and constant input.
+",,https://github.com/erickolbusz/traintime,,"Amazon Web Services - Best Use of AWS, Sustainability & Social Impact","Macaulay Honors College, City College of New York, Stony Brook University, Hunter College","",Macaulay Honors College,Internship,OK,"",Somewhat hard,"",pooneetthaper,StevenZabolotny,DavidBelinsky
+sEd,http://hacknyu2017.devpost.com/submissions/67768-sed,"sEd
+
+sEd (short for sexual education) is an iOS game that aims teach young people about STDs.
+
+About
+
+Young people, aged 15-24, account for 50% of all new STDs, even though they represent just 25% of the sexually experienced population, according to the Center for Disease Control.
+That's wild!  We believe that easily digestible sexual education is important.  There is clearly a gap in the way our education system teaches sexual education, and it is crucial to our country's health to be informed about these topics.
+
+Gameplay
+
+The first version of our game introduces Chlamydia and Crabs, two common STIs.  Users move their avatar up and down to avoid the incoming STIs.  If the user is hit, it's game over, and a fact about the STI will appear.  Easily digestible information!!!!  Catching condoms grants the player temporary immunity.
+
+Future
+
+In the future, we plan to include more STIs and STDs, and are aiming to improve gameplay by adding a health bar and treatments for diseases.
+",,https://github.com/shashank97/sexEd,,"Healthcare, Verizon Prize, Make School Prize","New York University, Baruch College, University of Texas at Dallas","","","","","","","",mkarroqe,wuraolasonubi,ChennasriKaveti,taraumesh
+Look,http://hacknyu2017.devpost.com/submissions/67770-look,"Inspiration
+
+David's father is blind and our app helps him see.
+
+What it does
+
+How we built it
+
+Challenges we ran into
+
+Accomplishments that we're proud of
+
+What we learned
+
+What's next for Look
+",,,,"","Penn State, Brandeis",Dell XPS Laptop,Penn state,Internship,"","","","",prajesh22,davidbrand222
+Whiteboard Web App,http://hacknyu2017.devpost.com/submissions/67776-whiteboard-web-app,"Inspiration
+
+Needing a platform to draw notes on my phone and get the image on my laptop
+",,https://github.com/D-Pow/HackNYU,https://s3.amazonaws.com/challengepost/zip_files/production/21600/zip_files/WhiteboardWebApp.zip,"","NYU Tandon, University of Toronto","",NYU Tandon,"","","","","",djp460
+FDNY Emergency Medical Services Accuracy Improvement,http://hacknyu2017.devpost.com/submissions/67780-fdny-emergency-medical-services-accuracy-improvement,"Inspiration: improve emergency medical service to save more life
+
+What it does: reduce bias in nowadays system
+
+How we built it: big data analysis
+
+Challenges we ran into: data is large, but just a few features
+
+Accomplishments that we're proud of: we finished at least
+
+What we learned: keep mind clear for goals
+
+What's next for FDNY Emergency Medical Services Accuracy Improvement: hope to work with FDNY in future
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21602/zip_files/FDNY_Emergency_Medical_Services_Project.pdf,"",nyu,"","","","","","","",YuanSHI
+CartesianVR,http://hacknyu2017.devpost.com/submissions/67781-cartesianvr,"Inspiration
+
+We realized that visualizing math is hard and there exists potential for VR based apps to help improve the whole MATHEMATICAL class experience. 
+
+What it does
+
+It helps students visualise math equations in 3D which is vital for understanding concepts in Coordinate Geometry and Vector Algebra
+
+How we built it
+
+WE have 2 fronts for this projects:
+
+
+An iOS app which lets you draw or type your equations/coordinated into the app and with a click of button, these are available in an API endpoint.
+A VR app that can be used with Samsung Gear VR to visualize the equations and coordinates entered through the iOS app.
+
+
+Challenges we ran into
+
+
+Huge Learning curve with Unity3D.
+No compatible hardware with GearVR
+Had to develop apps for Google Cardboard which would be used with Gear VR.
+Learnt c# in two days.
+Learn Objective C in a day( because we were more comfortable with Swift, but the Myscript package need to be interfaced via Objective-C.
+
+
+Accomplishments that we're proud of
+
+
+We feel that we have built an end to end EdTech app in 36 hours.
+We feel that this would be a good opportunity for students to appreciate Math and get rid of their Mathphobia
+
+
+What we learned
+
+
+Lots of new technologies
+
+
+What's next for CartesianVR
+
+
+We plan to extend the array of products to different subjects in our very own startup venture. Wanna invest?
+
+",,https://github.com/vineeth89/HackNYUiOSApp.git,,"","Columbia , NEU","","","","","","","",raghavendra018
+Hungry@NYUAD,http://hacknyu2017.devpost.com/submissions/67782-hungry-nyuad,"We got the inspiration for our application ‘Hungry@NYUAD’ from a Facebook group created by NYUAD students called Hungry@NYUAD. The NYUAD campus is located on Saadiyat Island that is very isolated from the main city and there aren’t many cheap and nearby places for students to eat at, especially during late at night. It is also a 15-20 minute ride to the city. Due to these reasons, students order food almost on a daily basis and since most restaurants require a minimum order price for delivery, they created the Facebook group Hungry@NYUAD to order collaboratively. However, the communication regarding ordering collaboratively is often very inconvenient and inefficient and several problems occur. For example, often people see posts by someone ordering food after the food has already been ordered and assume that the ordering is still happening. Or sometimes people don’t have enough trust in the chaotic communication system that exists on the Facebook group and hence, they pull back their contribution. Another problem that exists is that often people commit to ordering without really knowing if the order is going to be a success or not since they don’t know how many other people are contributing.
+
+Our application aims to solve all these and other problems and aims to provide a better system for people to gather and order food collectively. Briefly, the app allows people to log in with Facebook and then create ‘campaign’ to order food which can then be joined by other people. Apart from this, the app is intended to include some very helpful features, even though not all features of the application are functioning right now. The homepage shows a list of all open campaigns that will have a specific deadline by which the campaign will close. Each campaign will also show the name of the restaurant and a progress bar showing how much of the minimum price requirement has been reached (i.e. how much contribution has already been made). This feature allows people to know if this campaign will be a success or not and they can decide whether to join the campaign or not with more trust in the procedure. More details can be accessed when you click on a particular campaign, such as the name of the campaign creator, the time that the restaurant takes to deliver etc. 
+
+We used Meteor, which is a framework suitable for releasing a mature application instead of prototyping, to build this application. Since we were working within a tight time-frame and it was very difficult for us to make a fully functioning app, the styling of our front end is still in its primitive form and this is definitely something we aim to improve in future. We managed to make a fully functioning app that runs properly on both server and user end. We also built a fully functioning database that stores information of restaurants when input by the users and the input given regarding on-going campaigns. The app also makes the 'campaigns' disappear from the feed once the deadline has past just in case the owner forget to delete it, so that other users don't see expired campaigns. In this process, we learned about the thinking process of turning the discovery of a problem into something that can actually solve it. We also learned about the principles of web front-end design through seminars hold by CS major seniors.
+
+We have a lot of plans for this application since right now it is more of an idea, than a proper app and we can see all the ideas that we have, converting into fully functioning features. The first thing we are gonna do is to make the app good-looking in terms of design and implement some mobile features like pushing-notification. Then we're going to deploy the app on to a server and release a beta version to let fellow students help us improve it. After we reach a certain amount of users, we can reach out to the restaurants for discount, and that's when we profit. We will also propagate the app to other colleges in UAE. I believe it will have a huge market share in the local food-ordering market.
+",,https://github.com/danielwatson6/hackad-hungry,,"",New York University Abu Dhabi,"","","","","","","",Sugandha9140,Michael98Liu,ChenhaoXu304,danielwatson6
+pharm,http://hacknyu2017.devpost.com/submissions/67783-pharm,"pharm
+
+Diagnosing patients based on symptoms and locating the nearest pharmacies with suitable antibiotics
+",,https://github.com/d4koo/pharm,,"","Queen's University, Western University, York University","","","","","","","",1vzl1
+Thematic Ambient Music Generator(TAMG),http://hacknyu2017.devpost.com/submissions/67789-thematic-ambient-music-generator-tamg,"Inspiration
+
+As programmers who also play musical instruments, we are always curious about the probability to make machine intelligence create compelling music. As game developers, we are also struggle with finding cool free music that matches the games themes. As college students, we feel anxious about the tests and job interviews all the time and we need a stress reliever. Google's TensorFlow Dev Summit and their newly released machine intelligence framework for art generation inspired us to actually get our hands dirty and start developing a music bot on our own. 
+
+What it does
+
+TAMG stands for Thematic Ambient Music Generator. It is a web based application to generate basic melodies. Artists can cooperate with the AI to compose songs together. Game developers who need theme songs but lacks the access to compelling free music can use the app to generate music for their projects.People under stress can play with the music bot together and relief their anxiety. 
+
+How we built it
+
+On the frontend ide, we used Angular.js/HTML/CSS?Jquery to add the general layout and animations. On the backend side, we used node/express to run the scripts. We used TensorFlow and Magenta to generate the melodies with recurrent neural network (RNN) Models. We also used Amazon Web Services (AWS) to host the website. 
+
+Challenges we ran into
+
+We run into compatibility and package dependency issues with the newly published 1.0 version of TensorFlow. 
+
+Accomplishments that we're proud of
+
+We are proud of having a working project for the first hackathon that we ever attended and get started on machine learning developing.
+
+What we learned
+
+We've learned the basics of TensorFlow and Magenta and neural network models for machine learning, such as RNN and LSTM.
+
+What's next for Thematic Ambient Music Generator(TAMG)
+
+
+Improve our search function by adding more training models to it such that the users can search for different genres or moods of the music
+Try different machine learning technologies, such as Reinforcement Learning and Generative Adversarial Networks (GAN) to make the songs more dynamic and interesting
+Allow the user to customize the song, such as the musical instruments they want to hear from the song.
+
+",,http://54.203.156.23:3000/#/,,Assistive Technology,Northeastern University,"","","","","","","",n33t1,BeanRider
+Accumulab,http://hacknyu2017.devpost.com/submissions/67790-accumulab,"Inspiration
+
+Researchers and scientists are entering a new age of development, yet are still using antiquated methods of data collection. The norm of students and researchers is a simple notebook where one manually inputs their data findings, hypotheses and procedures. Irreproducibility of protocol alone causes 3 billion dollars of losses in the life science and the R&D industry, not to mention the hours of time wasted trying to reproduce and validate data, only to get something different than expected. Over the years, I have worked in laboratories, researching in optics, biotechnology, and electrochemistry. Data redundancy and irreproducible results were definitely a problem in all three cases, and it always boiled down to how we  We are developing a platform that aims to patch the gaps in research and data management, and helping groups collaborate with others for reproducibility of their research. 
+
+Source on the reproducibility issue: http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970
+
+What it does
+
+Accumulab is an artificially intelligent system made to record coherent and reproducible data in a consolidated dashboard that utilizes next generation speech recognition and adaptive capabilities based on research needs. The lab notebook for the 21st century, Accumulab will extensively utilize Google Cloud's Natural Language Processor API to incorporate voice recognition to record verbal notes instead of handwritten. A real-time Progressive Web Application that will decrease the time spent writing and searching, and increase time spent collaborating with your fellow researchers. The integration of AI into our platform to create a hands-free data collection system automatically sets us apart from the electronic laboratory notebooks currently on the market, all of which rely on manual data entry. We are also taking another step above the competition with the creation of a collaboration platform to connect like-minded researchers together.  
+
+How I built it
+
+The plan to build the Accumulab prototype was to use web application frameworks, specifically with MERN stack technologies in addition to other developer services as needed such as Google Natural Language processor. I used Marvel to design the prototype. My overall plan for development was as followed:
+
+A) Design & Planning
+   1) Add/Remove/Edit User Experience and User Interface
+   2) Wireframe new designs and features
+   3) Render wireframes using Marvel
+
+B) Development
+   1) Deploy designs into code
+   2) Using Agile methodologies' software development life cycle
+   3) Using React on front end
+   4) NodeJS and Express on back end
+   5) MongoDB for database
+   6) GitHub and Git for source control management
+   7) Slack and Trello for project management
+
+C) Release
+  1)Send latest iteration to the public
+
+D) Feedback
+  1) Find bugs
+  2) Conduct end-user surveys
+
+E) Go back to Design & Planning for next iteration
+
+Challenges I ran into
+
+For the weekend, I aimed to accomplish Part A of my plan, which was the design and planning. This was successful as I started off with hand-drawn UI mockups, improved on it by thinking about what features are needed, and then rendering it in Marvel. I also wanted to make headway into Part B, which was development. From there, this was the biggest challenge of the weekend. My team and I are not too well-versed in Javascript and React, making development time stretch out the entire duration of the hackathon. Thus, many of the rendered wireframes were not deployed into code. 
+
+Accomplishments that I'm proud of
+
+Despite the setback from coding, I am proud that my team appreciated the dream I have for Accumulab, and are willing to put in the time and effort towards development. We are all eager to learn, so I have no doubt that the prototype can be developed. In a short span of time, we had all come together and have accomplished solid work as a team. 
+
+What I learned
+
+In this hackathon, I relearned a lesson I've experienced in the lab countless times: no matter how well you initially plan, you always need to take into account of the many bumps in the round when executing your plan. Translating your wireframes to code is no simple task. With all the elements one works with, there are countless chances of bugs that can arise. That's why its important for us to realize that in a hackathon, it is not always about who can hack away the most in a certain amount of time, but for developing critical skills such as being able to work under pressure, being able to gauge a situation, knowing when to move on, etc. 
+
+What's next for Accumulab
+
+Accumulab is extremely feasible compared to other projects. Developing it from a technical standpoint until launch can cost as cheap as $0 because we aren't using technologies out of the ordinary besides the one already extensively used in the developer community. The technologies we are using have been used successfully in applications such as Google Productivity Suite or Instagram or slack. We have all the resources to develop this product because of how open source works, and how many companies provide free services for developers. Github for example provides free repository hosting, Mongolabs for example provides free database hosting, Firebase or GitHub Pages provides free website hosting, etc. The only technical drawbacks to developing Accumulab is not really technical at all: we just need time to develop this application.
+
+The number of potential users for Accumulab is relatively scalable from a few dozen to a few thousand over a period of time. The STEM field is greatly involving, with multiple initiatives put into place to surge research and teaching. As such, the time to aid the STEM initiative is now, as we can see the influx of research work being planned and conducted for years to come. My team and I come from a primarily STEM background, each of us with years of experience in our relevant fields. For me, the problem we are tackling is not only personal, but something I witnessed happen with my colleagues. As such, our drive to improve research is not just a venture or a weekend project, but a personal mission. 
+",, https://marvelapp.com/7d8aja9,,Healthcare,NYU,"",NYU,Full-time,Very well,N/A,Not that hard,"",Shadab,ckc358,myy233,fl1122
+Pecunia Ex Machina (P.E.M.),http://hacknyu2017.devpost.com/submissions/67792-pecunia-ex-machina-p-e-m,"Inspiration
+
+The inspiration for Pecunia Ex Machina (PEM) by our team's love of technology and money, in addition to our awareness of the barriers to stock trading for the average person. While the majority of Wall Street trades are made by computers, this technology is kept out of the hands of everyday investors, we aim to change this.
+
+What it does
+
+PEM utilizes a neural network in order to identify behavioral patterns in individual stocks, predicting microeconomic trends in order to advise the user to either buy or sell shares in said stock.
+
+How we built it
+
+We developed PEM's neural net from scratch, designing it to train itself on the past year's data to recognize the behavioral trends of a stock, and then using the past 10 days of data to predict the future value of the stock to make a recommendation to buy or sell.
+
+Challenges we ran into
+
+The biggest challenge we ran into while developing PEM was definitely the UX/UI development as our team's development experience in the area is limited.
+
+Accomplishments that we're proud of
+
+We are especially proud of the neural network and its precision in determining future value.
+
+What we learned
+
+We gained substantial experience in neural network development as it was made from scratch, giving us keen insight into the intricacies of their development.
+
+What's next for Pecunia Ex Machina
+
+We hope to further develop the neural net to move toward deep learning in effort to significantly improve the prediction accuracy. We hope to implement functionality that will allow PEM to make quantitative predictions of future market data such as opens, closes, highs, and lows.
+",,https://github.com/bobmayuze/pecuniaexmachina,,"Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS","Cherokee High School, Millburn High School, RPI, Fordham","",Cherokee High School,I'm not seeking a job opportunity,Very well,"Work environment, and corporate structure.",Not that hard,"",kunalpatel446,AbhinavMadahar,bobmayuze,gnawwaycon
+Save A Grade,http://hacknyu2017.devpost.com/submissions/67794-save-a-grade,"Inspiration
+
+Over a TA meeting, professor showed a really bare bone office hour scheduling app one student made. He looked at the features of the site, decided it will be a useful app, however, there are a lot more features he wants that could be implemented improved upon. We decided to take the professor's suggestions, and some more features we would like on  a scheduling app, and turn it to our current project, Save A Grade.
+
+What it does
+
+This is a website with the purpose of allowing students and professors to organize office hours for classes.
+
+How we built it
+
+We smashed our fingers on keyboards and the magical languages of PHP, CSS, JavaScript, and HTML appeared. We also had the assistance of libraries such as jQuery, AJAX, and Bootstrap. In order to build the relational database, we modeled the entities with a relational diagram. From there, the tables were made using SQL and phpMyAdmin. In order to get the data from certain days, a calendar API was implemented.
+
+Challenges we ran into
+
+
+Getting the Calendar API to work efficiently.
+Handling a complex relational database.
+Trying to stay awake for 36 hours.
+## Accomplishments that we're proud of
+Solving (or at least making an effort to solve) all the above challenges.
+## What we learned
+Calendar APIs are hard.
+Sleep is important.
+Time constraints are a factor when tackling a project.
+## What's next for Save-A-Grade
+Generate more data.
+Making it more user-friendly.
+Selling it to professors and implementing user suggestions.
+
+",,https://github.com/ThirdRepublic/HackNYU.git,https://s3.amazonaws.com/challengepost/zip_files/production/21604/zip_files/HackNYU.zip,Educational Technology,"NYU Tandon School of Engineering, Cornell University","",Cornell University,Internship,OK,"The type of project that might be assigned, previous interns and how they did or thought about the internship.",Somewhat hard,"",ntc27,dragontail,ThirdRepublic
+HackNYU2017,http://hacknyu2017.devpost.com/submissions/67795-hacknyu2017,"HackNYU: Medical Records Instantly
+
+
+
+Welcome to our MRI Repo! MRI is your very own private medical profile. MRI, short for Medical Records Instantly, aspires to provide a secure online environment for all your health records. MRI allows individuals to have all their medical test results, documents, and even insurance bills, stored in an easy to use database. Each individual is provided with a private login, that only they and their doctors may access. Through this login, hospitals and doctors are able to directly upload private test results, that you may then access anytime from anywhere in the world. Rather than having to wait weeks for records to arrive, MRI provides users automatic access to their medical history.
+
+Using location services, users are also able to search for clinics, medical services, and hospitals in the nearby area. MRI also lets users know which insurance is accepted at the aforementioned medical areas. Based on income and area, MRI also recommends which insurance is right for each user. Users are also able to make or cancel appointments upon their search. Users may also receive email and/or text reminders/alerts letting them know how often to take their prescribed medicines and when their next appointment is approaching.
+
+MRI will eventually allow documents, images, and even voicemails to be trasmitted via methods such as email, phone, fax, file upload, and more. Furthermore, doctors will be able to post personal health suggestions and comments if they so wish, in order to remind patients of their personal responsibility. MRI aims to close the gaps between doctor-patient relationships. MRI will effectively make the use of paper statements decrease, if not obselete, while beng able to provide patients with records in real time.
+
+MRI will also include a billing system, listing the price of each test and how much patients have to pay out of pocket. MRI hopes to provide ease to patients and families that are often very grief stricken and can not manage to keep track of all their medical bills.
+
+In short, MRI can be thought of as an online bank account, except that it details something much more important: your health. 
+",,https://github.com/at2706/HackNYU2017,,"","NYU Tandon, Brooklyn College","",NYU Tandon,Full-time,"","","","",at2706,zd2885,slz248,yeraymond7,ybrian2885
+New York Fast Track,http://hacknyu2017.devpost.com/submissions/67797-new-york-fast-track,"Inspiration
+
+I come from Rutgers University, where starting, it was very hard to navigate around campus. The reason being was that the buses at Rutgers were not integrated into Google Maps' API. Therefore, it would be constant switching between the Rutgers mobile bus app and google maps to get to my freshman year classes. So I want to manipulate NYC subway data in preparation for a new and improved Rutgers mobile bus app
+
+What it does
+
+It calculates when the nearest trains will arrive at stops as well as provide a live feed of NYC subway.
+
+How I built it
+
+Android studio, MTA APIs, Google APIs
+
+Challenges I ran into
+
+Time, didn't get to finish the main part that was not mentioned here
+
+Accomplishments that I'm proud of
+
+Parsing all that complicated GTFS data.
+
+What I learned
+
+A lot about google maps and transit APIs
+
+What's next for New York Fast Track
+
+Graph algorithms
+",,https://github.com/chris-gong/NYCFastTrack,,"Assistive Technology, Verizon Prize, #HackHarassment, Viacom Prize , Make School Prize",Rutgers University,"",Rutgers University,Internship,OK,"","Very hard,Somewhat hard","",chris-gong
+Capisce,http://hacknyu2017.devpost.com/submissions/67798-capisce,"Inspiration
+
+Students often find themselves in the all too familiar scenario of not understanding something,
+yet simultaneouisly also too shy to say so. They may not have a good opportunity to voice their concerns
+(teacher moves on and student doesn't want to make him backtrack)
+or may not even know the right question to ask (how do I know what I don't know?)
+
+What it does
+
+How I built it
+
+This is built mainly using node.js & chart.js to set up a simple 2 page website for the student view and teacher view.
+The student view allows students to enter their level of understanding whereas the teacher view displays all of the results in a nice pie chart
+
+Challenges I ran into
+
+Accomplishments that I'm proud of
+
+What I learned
+
+What's next for Capisce
+",,,,"",CUNY Hunter,"","","","","","","",karanboodwa96
+Memo Rooms,http://hacknyu2017.devpost.com/submissions/67799-memo-rooms,"Inspiration
+
+It was midterm hell week of our first semester in dental school, and my friend and I were studying for our biochemistry exam. I slammed my head onto my laptop that was displaying nauseating diagrams of the enzymes in the pentose-phosphate cycle.
+
+""How the hell are we supposed to memorize all of this? Is this even humanly possible?""  I asked my friend, studying next to me.
+
+""You know, there's a guy that has photographic memory in our school. He only has to study two or three days and he gets a 98,"" my friend said.
+
+My masseter muscle went limp as my jaw dropped to the floor, and I started searching the all-knowing Google, ""How to get photographic memory.""  If someone was doing it, I wanted to do it, too.
+
+Seconds later, I landed upon an article that basically told me, there is no such thing as a photographic memory. _ But _, there was something called a memory palace that professional memory champions use to memorize tons and tons of random information,  like a deck of shuffled cards or a list of random objects.  ""Read _ Moonwalking with Einstein _ by Joshua Foer,"" the article suggested, and that's the exactly I ordered on Amazon.com that very second.
+After reading that book, I learned how to hack my brain to memorize anything and everything I wanted to. I memorized things from random lists my brother gave me to the lectures on embryogenesis in neuroscience. Then I, too, got a 98 on the exam. How was it possible? It was the ""method of loci,"" otherwise known as the ""memory palace."" 
+
+You might have heard about it from Sherlock Holmes, but it's actually real. To demonstrate this extraordinary ability, take a moment to imagine your childhood home. You can picture your front door, step into your house, walk to the living room, navigate to the bathroom, even see how your shampoo, conditioner and soap are arranged in the shower. The method of loci, or memory palace, harnesses this extraordinary ability to remember three-dimensional spaces. It involves scattering the things you need to memorize, such as a grocery list or a neuroscience lecture, into the rooms of a place -- a memory palace. For example, if you needed to memorize the list of the U.S. Presidents in order, you would plaster the front door in $1 bills (George Washington), remember to punch your friend John on his Adam’s apple as you enter the door (John Adams), sign “Jeff” on bottom of the Declaration of Independence, conveniently placed below your clock (Thomas Jefferson), receive the Madison Square Garden tickets that your clock starts to dispense (James Madison), and so on and so forth. By placing objects that remind you of the information you need to remember throughout your home, all you need to do is walk through your home to see what list of the U.S. Presidents in order. This was the idea that bloomed into MemoRoom, coded and made into reality by David, Alden, and Ruowen at HackNYU 2017.
+
+Why this app is revolutionary
+
+Despite the significant advantages of creating memory palace, there are downsides of using a mental memory palace: it takes a lot of focus and will-power to conjure up and visualize the memory palace in your mind, place the information into it by converting the information into images and associating the images to the location. In addition, the memory palaces can fade if not reviewed frequently, as our brain prioritizes more urgent memories over the ones less accessed. That's why at HackNYU 2017, we've created an extraordinary interface called ""MemoRoom.""  This visualization interface allows the user to transport themselves to a virtual memory palace, paste lecture slides like post-it memos throughout the rooms, ultimately allowing the user to create their custom memory palace. 
+
+Students in colleges and graduate schools, including medical, dental and nursing schools, can use this interface to enhance their learning and memorization, as it serves as a study tool that helps them not only remember but also have fun constructing memory palaces and sharing them with their peers. MemoRoom would become a disruptive revolution in all levels of education, as it would be the next generation's mode of studying, note-taking, teaching, presenting,  and remembering. MemoRooms would begin to teach students how to fish rather than give the fish itself, as it shows students _ how _ to learn most efficiently by hacking their brains to harness their full potential in using spacial memory to memorize information, ultimately cultivating a hyper-knowledgeable generation of students in the present and future generations.
+
+What it does
+
+There are two aspects of this project, one being a computer program and the other an iPhone application. 
+
+The computer version is a visual interface that generates three-dimensional rooms and spaces and allows the user to tack converted PowerPoint slides onto various locations within the room or space. The user can drag and drop their notes to organize PowerPoint slides in three-dimensional space, navigate through the room as they study each slide, and ultimately remember the slide and the information contained within it to more efficiently than ever before. The user can also add annotations to the slides such that MemoRoom virtually becomes a three-dimensional notebook. Multiple rooms and spaces are available to organize different subjects and lectures into different spaces. The rooms can be saved and shared among peers, much like sharing notes between classmates. 
+
+In the iPhone app, users upload images from their camera roll and place them in the real world through an augmented reality using its camera. Similar to the computer program, the iPhone also allows users to drag and drop notes, 
+
+How I built it
+
+We used Java to generate images from .ppt/.pptx files.
+Next, we built 3 world themes with Unity using C#.
+We also built an iPhone app to support VR slides using Swift.
+Lastly, we added additional functionalities, such as Note Taking, movable slides, zoom in on slides, etc.
+
+Challenges I ran into
+
+Working as a team because we all have different areas of expertise.  None of us could work on the same thing at the same time, so we had to find a way to work together and complement each others' strengths and weaknesses.
+Moving between scenes in Unity
+AR slides in iPhone camera
+Supporting Both .ppt/pptx files at the same time.
+
+Accomplishments that I'm proud of
+
+People from different areas of expertise worked together to achieve a better learning environment. We made linear PowerPoint slides move and have motion. (#MineCrafting Slides!)
+
+What I learned
+
+Many fields of knowledge. Broadly saying: Human Anatomy; iOS Development; 3D Game Engines.
+Narrowly saying: Phone motion detection; Animation in 3D; Java Apache Framework; and more.
+
+What's next for MemoRooms
+
+The next step would be to create more rooms and spaces (themes) so that students can have the freedom of choosing what kinds of spaces they would like to use. Creating an even more seamless transition from PowerPoint to MemoRoom by allowing the MemoRoom interface to open PowerPoint files would be another next step to improving the interface. Also, conducting a randomized control trial to see if there is a difference in the information retention rate of students who used MemoRooms versus students who did not would be useful to get government or private funding on this project. We also plan on adding customizable/editable rooms in the desktop visualizer.
+
+The basis upon which this method lies is that we, as descendants of hunter-gatherers,  have an extraordinary sense of spatial memory.  That's how our ancestors remembered where their source of food and water was, and the ones without it died off as Charles Darwin's survival of the fittest theory suggests.
+",,https://github.com/aldenlamp/memo-room,,"Educational Technology, Make School Prize","NYU, Millburn High School","",Millburn High School,I'm not seeking a job opportunity,OK,What the office environment/the people are like,Not that hard,"",davshus,aldenLamp,mikupa55
+Hello! Bud - An Education + Project Assistant,http://hacknyu2017.devpost.com/submissions/67801-hello-bud-an-education-project-assistant,"Inspiration
+
+A Assistant to help making critical and worthy decisions that lead to a greater impact in Education (Graduate Education) as well as Project Planning.
+--- Assistant for Graduate Study or University Education (An Helping Hand for all education purposes) 
+--- Assistant for Project Planning (From Idea to Reality)
+--- Suggestions based on the best possible impact and dynamic programming
+--- Re Inventing the Clippy Assistant (Of Microsoft)
+
+What it does
+
+--- Assists a student throughout his University Education 
+     - Study and Work Planner
+     - Aids in learning
+     - Make Important decisions on how to take up the work over each week
+     - Prioritize the work based on the syllabus weight
+     - Analysis of the load of course work and amount of hours to work each week
+     - Reminds and Pushes to meet deadlines
+     - Syncs with University (From the Servers) and Communication respective news and events to the Student
+     - Syncs with Students and Organizers to communicate about events (Hackathons) happening around based on the     student interest
+
+--- Assists a person throughout his Project Planning and Execution
+    - Implementing the Assistance of Ideas to Reality Concept
+    - Generating the best possible solution or path to head, to achieve the best solution
+    - Making Critical Decisions based on various scenarios (time, resources, dependency)
+
+--- Reverse Communication to Master
+      - Expose API to Authority of Universities, Event Organizers and Student Community to fetch the information and deliver.
+      - Analyzing the Information obtained and delivering only those information that sync with the persons interest and behavioral data.
+
+--- Health Check
+     - Sync with health devices (Fitbit, Miband), extracts behavioral pattern of the person (communication) and suggests respective behavioral changes on food, fitness and sleep.
+
+How we built it
+
+--- Starting from the Scratch from the Voice Assistant Backwards using Python
+     Voice Conversions ---> Data Fetch ---> Analysis ---> Output the efficient solution ---> GUI
+
+Challenges we ran into
+
+--- Increasing the accuracy of Voice/Text conversion and vice-versa
+--- Building the GUI, Clip Assistant (Similar to Microsoft) and Integrating to the project
+--- Extend the scope of Algorithm techniques to achieve a best possible solution
+
+Accomplishments that we're proud of
+
+--- Built a Self contained Voice/Text assistant who can communicate
+--- Replicated the Microsoft Clip Assistant with two actions
+--- Performed the Algorithm workflow for Education
+
+What we learned
+
+--- Knowledge and Considerations for a Virtual Assistant
+--- Efficiency of an Algorithm
+--- More and More of Python
+
+What's next for Hello! Bud - A Graduate Assistant / Project Assistant
+
+--- To enhance the Graduate Assistant Feature for various scenario handling
+--- To elaborate the feature of Project Assistant - guiding through the Development Cycle over Various Stages to achieve Project Ideas to Reality making critical decisions
+--- Integrate the GUI with the Algorithm and package as a standalone application
+--- Export API to University and Even Organizers to feed information to Assistant so that It communicates to the student
+",,https://github.com/Srinivas11789/Hello-Bud,,"Assistive Technology, Educational Technology, Verizon Prize, #HackHarassment, Viacom Prize , Make School Prize",New York University,"",New York University,Internship,OK,* The Problems that occur in real time and needed to be solved,Not that hard,"",SrinivasPG,sk6599,coolshamshuddin
+ecoBike,http://hacknyu2017.devpost.com/submissions/67802-ecobike,"Inspiration: What makes human beings different from other living creatures is their ability to differentiate between right and wrong. Their ability to put their thought-processing and decision-making skills to proper use in order to make rational decisions and benefit themselves in the near future. Such is the matter of Climate change. If this generation doesn't contribute on a personal level to reduce the impacts of climate change, it won't be a justice to our future generations. It is appreciable how countries from across the globe are uniting under one umbrella to fight this catastrophe but it is also important to realize that we, as a society can be the real force of impact.
+
+What it does?
+
+1) Calculates the amount of C0(2) emission a user can reduce if they ecoBike to their next destination from the starting point. (Not completed)
+
+2) Calculates the distance user would ride ecoBiking to their destination. (Completed).
+
+3) Emphasizes on why it is important to contribute on a personal level in our fight for climate change. (Completed).
+
+How we built it? React-Native, Node JS, JavaScript, HTML, CSS, MongoDB.
+
+Challenges we ran into: We started with ionic for the mobile application. Unfortunately we couldn't continue using ionic so we had to move with react-native. That happened Saturday afternoon. That was a major setback for us since we had to start again from the scratch.
+
+Accomplishments that we're proud of: What we have learned over the weekend is way more than what we expected. It's a learning process and we are satisfied to complete this project as planned.
+
+What we learned: Something from everything. It's hard to summarize what we learned because we learned A LOT!
+
+What's next for ecoBike: We will continue working on this idea, add new creative social features, improve some features.
+",,https://github.com/hktgroup/ecoBike,,"Make School Prize, Sustainability & Social Impact","CUNY Queens College, CUNY BMCC","",CUNY Queens College,"","","","","",hassan3095,pratm9293,kevin3110,Kisazadev
+Tactile video for dental simulations,http://hacknyu2017.devpost.com/submissions/67803-tactile-video-for-dental-simulations,"Problem statement
+
+In learning dentistry, much of what we as dentists need to know depends on the sense of touch. This cannot be taught with lectures and books, and the sense of touch is missing from pre-clinical dental simulations.
+
+Inspiration
+
+This idea occurred to me while I was being helped with a scaling and root planing by a periodontist. He took the 11/12 explorer and asked me to hold it behind his hand. As he drew the working end over the subgingival calculus, I was able to feel the vibration of the instrument. 
+
+What it does
+
+This project allows us to record the vibrations of dental instruments in use, then play them back so that dental students can feel what the dentist feels.
+
+How I built it
+
+Breadboarding electrical components.
+
+Accomplishments
+
+The haptic sensation coupled with video make a compelling illusion of touch. 
+
+What's next for Hu
+
+Refine the physical product with panel-mounted connections, and bluetooth for wireless audio transmission. Bring it to clinic, record a video series.
+",https://youtu.be/OBJ2meciwMM,,,"","NYU, UMCP","",NYU College of Dentistry,Other,"","","",I'm in the US Army Dental Corps. Dental school is my job.,Karyandrew,JeffreyWang98,leadhead892002
+Gryft,http://hacknyu2017.devpost.com/submissions/67804-gryft,"Inspiration
+
+Taking a ride to a certain place sometimes gives you the irreasonable price. Although the destinations could be only one block difference in distance, the price could vary differently. In such situation, it would be better for people to find somewhere near the destination but lower in price. We came up with the idea of making an app which could find the cheapest places near customer's intended destination.
+
+What it does
+
+Find cheaper places to go to and avoid surge areas with Lyft. Given a time threshold which is the maximum time the customer would like to trade off to walk to the destination from where he get off, find the optimal place to get off which saves both the money and the time. 
+
+How we built it
+
+For the backend we basically used java and Google maps web services API to get the time we need to get to one place to another. Compare it with the price given by the Lyft to decide what's the best location.
+
+What's next for Gryft
+
+The next step is to make it more intelligent by giving suggestions to the customer according to the place they would like to go. For instance, if the customer wanted to go to a bar which is expensive, Gryft would note the customer the bar is expensive and find a bar nearby which is cheaper. These intelligent feedback would give user better experience using the app.
+",https://youtu.be/HW38MbFU7wc,https://github.com/angiemsu/Gryft,,Make School Prize,"Cornell University, Bentley University","","","","","","","",crudeplay,angiemsu,bocaaust,joyhuan
+MealPic,http://hacknyu2017.devpost.com/submissions/67806-mealpic,"It goes without saying that knowledge is key, but what’s less obvious to many people is that what we put into our bodies has a direct correlation with our ability to fight illnesses.  Most of us are either too lazy find the nutritional label of our foods, don’t have quick resources to retrieve these values (existing market applications are too cumbersome) or simply do not know how to eat healthy.  
+
+MealPic was created to help reduce and prevent disease through the promotion of food nutrition awareness and healthier eating habits in a fun, easy, and interactive way.  With the click of a camera, users can pull up the nutritional label on what they’re eating, see how it compares to what they should be eating (based on their BMI and exercise level), and get suggested alternatives for healthier foods of similar types (if what they’re consuming isn’t so great). 
+
+Our application was built using Xamarin platform, integrating computer vision API from Microsoft Cognitive Services and Nutrionix (nutritional facts) API.  We wrote formulas for calculating suggested individual daily intake values of calories, fat, carbohydrates, and protein (based on established nutritional science data); totals for each meal, day, and week; and how the former compares with the latter 3.  Our UX/UI started in Adobe Illustrator, Photoshop, and Experience Design, as well as Xamarin Storyboard. 
+
+Our biggest challenges were integrating the image recognition API (recent technology that hasn’t entirely matured yet and has scarce information on how to work with it) and working in Xamarin (2 of our 3 developers were using it for the first time).  Despite Xamarin’s challenge, our most experienced mobile developer believed it to be the best cross platform and good for incorporating computer vision in iOS.  
+
+We are proud that our application is first (or at least one of very few of its kind), given the newness of the image recognition technology, and our vision/ability to connect disparate worlds (using technology to inform health and wellness and hopefully one day change the way many people consume).  
+
+While we were overambitious and did not get to marry all the frontend visions with the backend infrastructure with the limited hackathon time, we walk away proud of what we’ve learned and accomplished—especially for a team of 4 first time hackathoners!  Next time we would be more deliberate about defining an executable scope with the limited time so not to spread ourselves too thin and be able to deliver a more polished MVP.  
+
+MealPic’s next move is to enhance image recognition precision, better integrate data with calculations, and enable social platform within the application (to allow users to connect and discuss with their community about foods and nutrition).  Our extended future goal is to link information on where to purchase meals or ingredients and how to make the foods suggested as the healthier alternatives, which also starts to inform the business revenue model for the application. 
+",https://www.youtube.com/watch?v=rtCyzuT3Ulw&feature=youtu.be,https://github.com/heng2j/FoodAcademy---HackNYU2017,,"Healthcare, Verizon Prize, Viacom Prize , Make School Prize",NYU Tandon,Dell Monitor,NYU Tandon,"Full-time,Internship",OK,"team culture, employee training",Somewhat hard,"",tl2118,Youxing,JohnMartinez12
+Quack,http://hacknyu2017.devpost.com/submissions/67807-quack,"Inspiration
+
+The story is often told of a Little Ugly Duckling who didn't fit in with his family. He was not accepted as a beautiful duckling, and was always pushed aside by his brothers, sisters, and everyone around him. This ugly duckling did not get the respect he deserved, but was not alone as almost each duck family has at least one ugly duckling.
+
+Approximately 1 in 6 people in the United Kingdom are affected by hearing loss. This ratio is extremely large and as it is continuously growing around the world, our team felt that these people should not be left out, should not feel alone, and should not feel like the ugly duckling.
+
+We feel that the world needs to be educated. The world needs to learn the language of the unspoken, to be able to converse with, include, and respect those who are hard of hearing. With this, we created Quack.
+
+What it does
+
+Quack is a program that uses Leap Motion to teach and test your knowledge of basic American Sign Language through physically signing as well as identifying signs.
+
+How we built it
+
+We used existing open-sourced code and developed on it to improve the learning experience that it provides for the user.
+
+Challenges we ran into
+
+One of the biggest challenges we came across was never having played with or programmed a Leap Motion sensor before. We spent some time exploring and testing out the device and in the end were able to create Quack.
+
+Accomplishments that we're proud of
+
+We are very proud of the fact that we created a very study-friendly, easy-to-navigate system for learning American Sign Language.
+
+What we learned
+
+Through the course of this hackathon, we learned how to implement the redis server using python.
+
+What's next for Quack
+
+While developing Quack, we noticed a lot of minor issues with the user interface, which we hope to improve in the near future.
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21605/zip_files/quack.zip,"Educational Technology, Viacom Prize ","University of Ottawa, University of Texas at Dallas",Leap Motion,"","","","","","",aleeza_ladhani,AtaGowani
+Emergenseek,http://hacknyu2017.devpost.com/submissions/67809-emergenseek,"Inspiration
+
+Katie and Stephanie, two of our team members, are new Dentists with a lot of knowledge on various illnesses and symptoms, but little real world application knowledge. Having an app that would help bridge the gap between practical application and textbook processes would greatly benefit them,  and the many new dentists worldwide.
+
+What it does
+
+Emergenseek consists of an Android app, an Alexa skill with hands-free features, and a simple Webpage outlining our features.
+
+How we built it
+
+The Android App was built with Java, and the Android SDK, the Alexa Skill was built with Python, Flask-Ask, Amazon Alexa SDK, JSON, and the FDA database. The webpage was simply HTML/CSS
+
+Challenges we ran into
+
+Halfway through Saturday night, after a day of solid progress, our main Android developer had to leave the hackathon due to a family emergency. While we're extremely glad things turned out okay for him and his family, we (no experience with Android) had to finish off the app, and learn everything along the way. There were twists and turns, from figuring out the quirks of Android Studio and Gradle, to figuring out how to put our logo in the splash screen, we had to figure out everything along the way.
+
+Accomplishments that we're proud of
+
+We went from no Android experience, to a functioning app, and also an Alexa skill and webpage. Additionally, for two of our members, it was their first hackathon, and creating these applications is extremely impressive for such little experience.
+
+What we learned
+
+Organization is key, and clear communication has to be established for meaningful and efficient work to take place
+
+What's next for Emergenseek
+
+After HackNYU, we hope to fully flesh out all it's features, make an iOS version, have it on the play store, and ensure it's working for all our dentists properly
+",,,,Healthcare,"Rutgers University, NYU","",Rutgers University,Internship,OK,The possible teams I would be working with,Not that hard,"",KuberSethi,slc563,eugenewillwong,kb1943
+EduPro,http://hacknyu2017.devpost.com/submissions/67811-edupro,"Inspiration
+
+We were losing so much time just searching for good quality educational videos, so we realized that there needs to be a better way!
+
+What it does
+
+It analyzes youtube data with smart algorithms which determines what video would benefit the students the most
+
+How we built it
+
+We used the YoutubeDataAPI and the Google Developer console to get metadata from youtube and we made algorithms to better use the information youtube has and then we used php and html5 to display the results
+
+Challenges we ran into
+
+It was hard to communicate the results from the program into HTML and it was hard to convert the results into a .txt file
+
+Accomplishments that we're proud of
+
+We converted the results into a .txt file and later on we displayed it in HTML. We also successfully built the application into something that can contest with youtube's recommendation engine.
+
+What we learned
+
+We learned how to efficiently program applications which are time-consuming and long by learning how to efficiently plan and manage time wisely
+
+What's next for EduPro
+
+We are going to build it for multiple educational websites, such as  coursera, futurelearn and more. We are also planning on going into other types like documents, images and more
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21606/zip_files/HackNYU_Submission.zip,"Educational Technology, Sustainability & Social Impact",West-Windsor Plainsboro High School South,"","","","","","","",katchu11,khrams100,jinujets2128
+Collabarter,http://hacknyu2017.devpost.com/submissions/67812-collabarter,"Inspiration
+
+We wanted to design a system which connects college students to help out each other in terms of tutoring.  We noticed many websites would charge college students ridiculous amounts of money, so we decided that why not make a system where college students can help each other out and not pay a fee.
+
+What it does
+
+A tutoring system where college students list their weaknesses and strengths and connect with other students who's strengths are their weaknesses which allow them to tutor each other, creating a symbiotic relationship between college students.
+
+How I built it
+
+HTML, PHP, Java (text files for database)
+
+Challenges I ran into
+
+Connecting Java to PHP, reading and writing individual lines from text files
+
+Accomplishments that I'm proud of
+
+Learning backend for the first time, linking HTML pages with Java, UI design, creating a submission form
+
+What I learned
+
+Learned how to store data and retrieve it, UI design, form creation
+
+What's next for Collabarter
+
+Creating a fully functional product and releasing it to the public
+",,,https://s3.amazonaws.com/challengepost/zip_files/production/21607/zip_files/Code.txt,Educational Technology,UMass Amherst,"","","","","","","",jzzhang,abhinavp403,rohanlimaye17
+Ologee,http://hacknyu2017.devpost.com/submissions/67813-ologee,"Inspiration
+
+In light of recent worldwide politics and war ethics, thousands of people each day have found themselves displaced from their homes, countries and families. There are many flaws in the refugee application process for the US. The main problem is accessibility to knowledge of the refugee referral and application process. Applicants are left in the dark, not knowing if they have submitted all of the required paper work. Our website delivers everything they need in one streamlined place. 
+
+What it does
+
+On our site refugees can find information necessary for applying to be a admitted to the US as a refugee. They can make sure they have all required forms. They can also find access to local translator and UNHCR office to help them in the referral process. 
+
+How we built it
+
+Python 
+HTML 
+Google App Engine 
+CSS
+
+Challenges we ran into
+
+Embedding the data for translators into the website.Much of this data was hard to find in completion, often contact information was missing or inaccurate. Also, for the UNHCR offices some of the addresses couldnt be attained for certain countries without going through headquarters.
+
+Accomplishments that we're proud of
+
+Coming together as a team and creating a webpage that can offer peace and solemnity to individuals in distress worldwide.
+
+What we learned
+
+Politics are complicated. 
+
+What's next for Ologee
+
+Expanding on all the resources we have acquired. Possibly expanding to regions affected by natural disasters.
+",,https://www.youtube.com/watch?v=Ag4W9tsHaYg,https://s3.amazonaws.com/challengepost/zip_files/production/21608/zip_files/images.zip,"Verizon Prize, #HackHarassment, Best Domain Name from Domain.com, Amazon Web Services - Best Use of AWS, Viacom Prize , Make School Prize, Sustainability & Social Impact","New York University, Mercer County Community College","",Mercer County Community College,Internship,OK,Whether  or not the job will allow  me to explore all realms of software development.,"","",vey205,JasmineWilliams,JaniceKonadu,MalcolmLewis
